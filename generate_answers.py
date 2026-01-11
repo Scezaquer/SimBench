@@ -246,6 +246,7 @@ parser.add_argument('--method', type=str, help='method')
 parser.add_argument('--csd3', type=str, help='compute environment')
 parser.add_argument('--debug', action='store_true', help='Debugging')
 parser.add_argument('--openrouter', action='store_true', help='Use OpenRouter API')
+parser.add_argument('--lora_path', type=str, help='Path to LoRA adapter')
 args = parser.parse_args()
 
 model_name = args.model_name
@@ -305,6 +306,11 @@ else:
                                                  cache_dir=hf_cache_folder, load_in_8bit=True,
                                                  trust_remote_code=True,
                                                  torch_dtype=torch.bfloat16)
+    if args.lora_path:
+        from peft import PeftModel
+        print(f"Loading LoRA from {args.lora_path}")
+        model = PeftModel.from_pretrained(model, args.lora_path)
+            
     model.generation_config.pad_token_id = tokenizer.pad_token_id
     for id in tqdm(range(len(dataset))):
         system_prompt, user_prompt = generate_prompt(dataset.iloc[id], prompt_method)
@@ -368,7 +374,7 @@ for idx, row in dataset.iterrows():
     new_row['User_Prompt'] = total_user_prompt[idx]
     new_row['Response_Distribution'] = model_distribution[idx]
     new_row['Sum_of_Probs'] = total_probs[idx]
-    new_row['Model'] = model_name
+    new_row['Model'] = model_name if not args.lora_path else model_name + args.lora_path
     new_row['Prompt_Method'] = prompt_method
     new_rows.append(new_row)
 new_dataset = pd.DataFrame(new_rows)
