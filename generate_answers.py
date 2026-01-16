@@ -316,7 +316,7 @@ else:
         system_prompt, user_prompt = generate_prompt(dataset.iloc[id], prompt_method)
         total_system_prompt.append(system_prompt)
         total_user_prompt.append(user_prompt)
-        chat_model = check_chat_model(model_name)
+        chat_model = tokenizer.chat_template is not None
         if prompt_method == 'token_prob':
             target_tokens = list(dataset.loc[id, 'human_answer'].keys())
             if chat_model:
@@ -374,7 +374,10 @@ for idx, row in dataset.iterrows():
     new_row['User_Prompt'] = total_user_prompt[idx]
     new_row['Response_Distribution'] = model_distribution[idx]
     new_row['Sum_of_Probs'] = total_probs[idx]
-    new_row['Model'] = model_name if not args.lora_path else model_name + args.lora_path
+    if args.lora_path:
+        new_row['Model'] = os.path.basename(args.lora_path.rstrip('/'))
+    else:
+        new_row['Model'] = model_name
     new_row['Prompt_Method'] = prompt_method
     new_rows.append(new_row)
 new_dataset = pd.DataFrame(new_rows)
