@@ -14,7 +14,7 @@ module load scipy-stack
 echo "Activating virtual environment..."
 source ../ENV/bin/activate
 export HF_CACHE_LOCAL=/home/mila/a/aurelien.buck-kaeffer/scratch/HF-cache
-export LOCAL_WORKDIR=/home/mila/a/aurelien.buck-kaeffer/SimBench_release
+export LOCAL_WORKDIR=/home/mila/a/aurelien.buck-kaeffer/SimBench
 export HF_HUB_OFFLINE=1
 
 LORA_DIR="/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur"
