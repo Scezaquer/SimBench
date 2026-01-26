@@ -1,8 +1,9 @@
 #!/bin/bash
-#SBATCH --account=def-rrabba
+#SBATCH --job-name=SimBench_LoRAs
 #SBATCH --time=12:00:00
 #SBATCH --mem-per-cpu=16G
-#SBATCH --gpus-per-node=1
+#SBATCH --gres=gpu:a100:1
+#SBATCH --partition=main
 
 nvidia-smi
 lscpu
