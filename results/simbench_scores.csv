@@ -1,5 +1,5 @@
 Model,SimBench_Score,Num_Questions
-marcelbinz/Llama-3.1-Minitaur-8B,12.8,7167
+marcelbinz/Llama-3.1-Minitaur-8B,11.62,7167
 Qwen/Qwen3-8B,-5.57,7167
 Qwen2.5-7B-Instruct-lora-finetuned-8-no-focal,-10.6,7167
 Qwen2.5-7B-Instruct-lora-finetuned-3-no-focal,-10.75,7167

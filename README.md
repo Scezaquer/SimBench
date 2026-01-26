@@ -99,9 +99,43 @@ python generate_answers.py \
     --output_file results/mistral_7b_instruct_token_prob_pop.pkl \
     --model_name mistralai/Mistral-7B-Instruct-v0.1 \
     --method token_prob
+```
 
 ## Evaluation
 
 After generating LLM responses, use `calculate_simbench_score.py` to compute evaluation metrics comparing the LLM response distributions to human response distributions.
 
 
+
+| Rank | Model                                          | SimBench Score |
+| ---: | ---------------------------------------------- | -------------: |
+|    1 | marcelbinz/Llama-3.1-Minitaur-8B               |      **11.62** |
+|    2 | Qwen/Qwen3-8B                                  |          -5.57 |
+|    3 | Convex opti to match in distribution           |          -7.28 |
+|    4 | Convex opti to match in average                |          -7.36 |
+|    5 | Qwen2.5-7B-Instruct-lora-finetuned-8-no-focal  |         -10.60 |
+|    6 | Qwen2.5-7B-Instruct-lora-finetuned-3-no-focal  |         -10.75 |
+|    7 | Qwen2.5-7B-Instruct-lora-finetuned-1-no-focal  |         -11.29 |
+|    8 | Qwen2.5-7B-Instruct-lora-finetuned-20-no-focal |         -13.10 |
+|    9 | Qwen2.5-7B-Instruct-lora-finetuned-14-no-focal |         -14.20 |
+|   10 | Qwen2.5-7B-Instruct-lora-finetuned-23-no-focal |         -14.48 |
+|   11 | Qwen2.5-7B-Instruct-lora-finetuned-10-no-focal |         -18.21 |
+|   12 | Qwen2.5-7B-Instruct-lora-finetuned-11-no-focal |         -18.87 |
+|   13 | Qwen2.5-7B-Instruct-lora-finetuned-19-no-focal |         -21.56 |
+|   14 | Qwen2.5-7B-Instruct-lora-finetuned-0-no-focal  |         -21.81 |
+|   15 | Qwen2.5-7B-Instruct-lora-finetuned-15-no-focal |         -21.99 |
+|   16 | Qwen2.5-7B-Instruct-lora-finetuned-12-no-focal |         -22.16 |
+|   17 | Qwen2.5-7B-Instruct-lora-finetuned-16-no-focal |         -24.74 |
+|   18 | Qwen2.5-7B-Instruct-lora-finetuned-21-no-focal |         -25.46 |
+|   19 | Qwen2.5-7B-Instruct-lora-finetuned-6-no-focal  |         -29.88 |
+|   20 | Qwen2.5-7B-Instruct-lora-finetuned-13-no-focal |         -30.20 |
+|   21 | Qwen2.5-7B-Instruct-lora-finetuned-22-no-focal |         -32.99 |
+|   22 | Qwen2.5-7B-Instruct-lora-finetuned-24-no-focal |         -33.59 |
+|   23 | Qwen2.5-7B-Instruct                            |         -34.87 |
+|   24 | Qwen2.5-7B-Instruct-lora-finetuned-17-no-focal |         -36.89 |
+|   25 | Qwen2.5-7B-Instruct-lora-finetuned-9-no-focal  |         -37.36 |
+|   26 | Qwen2.5-7B-Instruct-lora-finetuned-18-no-focal |         -40.10 |
+|   27 | Qwen2.5-7B-Instruct-lora-finetuned-5-no-focal  |         -41.90 |
+|   28 | Qwen2.5-7B-Instruct-lora-finetuned-2-no-focal  |         -44.13 |
+|   29 | Qwen2.5-7B-Instruct-lora-finetuned-7-no-focal  |         -47.34 |
+|   30 | Qwen2.5-7B-Instruct-lora-finetuned-4-no-focal  |         -48.13 |
