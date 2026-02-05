@@ -13,6 +13,7 @@ source $HOME/ENV/bin/activate
 export HF_HUB_CACHE=$SCRATCH/HF-cache
 export UNSLOTH_CACHE_DIR=$SCRATCH/unsloth-cache
 export LOCAL_WORKDIR=/home/mila/a/aurelien.buck-kaeffer/SimBench
+export HF_HUB_OFFLINE=1
 
 LORA_DIR="/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur"
 BASE_MODEL="marcelbinz/Llama-3.1-Minitaur-8B"
