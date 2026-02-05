@@ -8,14 +8,11 @@
 nvidia-smi
 lscpu
 
-module load python/3.11
-module load scipy-stack
+module load python/3.10
+source $HOME/ENV/bin/activate
+export HF_HUB_CACHE=$SCRATCH/HF-cache
+export UNSLOTH_CACHE_DIR=$SCRATCH/unsloth-cache
 
-echo "Activating virtual environment..."
-source ../concordia/ENV-concordia/bin/activate
-export HF_CACHE_LOCAL=/home/s4yor1/scratch/HF-cache
-export LOCAL_WORKDIR=/home/s4yor1/SimBench_release
-export HF_HUB_OFFLINE=1
 echo "Starting script"
 
 python generate_answers.py \
