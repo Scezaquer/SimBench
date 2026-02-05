@@ -12,6 +12,7 @@ module load python/3.10
 source $HOME/ENV/bin/activate
 export HF_HUB_CACHE=$SCRATCH/HF-cache
 export UNSLOTH_CACHE_DIR=$SCRATCH/unsloth-cache
+export LOCAL_WORKDIR=/home/s4yor1/SimBench_release
 
 LORA_DIR="/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur"
 BASE_MODEL="marcelbinz/Llama-3.1-Minitaur-8B"
