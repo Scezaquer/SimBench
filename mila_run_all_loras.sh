@@ -3,7 +3,7 @@
 #SBATCH --time=12:00:00
 #SBATCH --mem-per-cpu=16G
 #SBATCH --gres=gpu:a100:1
-#SBATCH --partition=main
+#SBATCH --partition=unkillable
 
 nvidia-smi
 lscpu
