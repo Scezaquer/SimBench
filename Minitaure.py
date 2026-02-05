@@ -5,7 +5,7 @@ model, tokenizer = FastLanguageModel.from_pretrained(
   model_name = "marcelbinz/Llama-3.1-Minitaur-8B",
   max_seq_length = 32768,
   dtype = None,
-  load_in_4bit = True,
+  # load_in_4bit = True,
 )
 FastLanguageModel.for_inference(model)
 

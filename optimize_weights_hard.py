@@ -39,7 +39,7 @@ def make_hard_distribution(prob_vector):
 
 def load_data(results_dir):
     # Find all relevant files
-    pattern = os.path.join(results_dir, "token_prob_Qwen2.5-7B-Instruct-lora-finetuned-*-no-focal_token_prob_pop.pkl")
+    pattern = os.path.join(results_dir, "token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-*_token_prob_pop.pkl")
     files = glob.glob(pattern)
     files.sort(key=lambda x: int(re.search(r'finetuned-(\d+)-', x).group(1)) if re.search(r'finetuned-(\d+)-', x) else -1)
     
