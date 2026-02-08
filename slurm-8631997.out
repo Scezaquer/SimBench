@@ -1,0 +1,752 @@
+Sun Feb  8 10:42:43 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:07:00.0 Off |                    0 |
+| N/A   28C    P0             55W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           43 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  128
+On-line CPU(s) list:                     0-127
+Vendor ID:                               AuthenticAMD
+Model name:                              AMD EPYC 7742 64-Core Processor
+CPU family:                              23
+Model:                                   49
+Thread(s) per core:                      1
+Core(s) per socket:                      64
+Socket(s):                               2
+Stepping:                                0
+Frequency boost:                         enabled
+CPU max MHz:                             2250.0000
+CPU min MHz:                             1500.0000
+BogoMIPS:                                4491.51
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca sme sev sev_es
+Virtualization:                          AMD-V
+L1d cache:                               4 MiB (128 instances)
+L1i cache:                               4 MiB (128 instances)
+L2 cache:                                64 MiB (128 instances)
+L3 cache:                                512 MiB (32 instances)
+NUMA node(s):                            8
+NUMA node0 CPU(s):                       0-15
+NUMA node1 CPU(s):                       16-31
+NUMA node2 CPU(s):                       32-47
+NUMA node3 CPU(s):                       48-63
+NUMA node4 CPU(s):                       64-79
+NUMA node5 CPU(s):                       80-95
+NUMA node6 CPU(s):                       96-111
+NUMA node7 CPU(s):                       112-127
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Mitigation; untrained return thunk; SMT disabled
+Vulnerability Spec rstack overflow:      Mitigation; SMT disabled
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+[=== Module python/3.10 loaded ===]
+Using LoRA directory: /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-0
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-0_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-1
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-1_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-2
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-2 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-2_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.36it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.36it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.96it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.69it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-2
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-2'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-2'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-3
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-3 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-3_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.36it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.97it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-3
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-3'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-3'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-4
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-4 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-4_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.36it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.98it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-4
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-4'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-4'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.35s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.04s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.28s/it]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.37it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.98it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.98it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.34it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.35it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.97it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.69it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.97it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.98it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.96it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.98it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.37it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.36it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.97it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.98it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.32s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.03s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.26s/it]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24
+Running generation for Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24 -> results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24_token_prob_pop.pkl
+/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py:18: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.38it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.36it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.98it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.70it/s]
+Loading LoRA from /home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mila/a/aurelien.buck-kaeffer/SimBench/generate_answers.py", line 313, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_path)
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/peft_model.py", line 459, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+  File "/home/mila/a/aurelien.buck-kaeffer/ENV/lib/python3.10/site-packages/peft/config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/mila/a/aurelien.buck-kaeffer/scratch/Minitaur/Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24'
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8_token_prob_pop.pkl already exists. Skipping...
+Processing LoRA: Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9
+Output file results/token_prob_Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9_token_prob_pop.pkl already exists. Skipping...
+All LoRAs processed.
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Sun Feb  8 10:46:55 2026
+Driver Version                            : 580.95.05
+CUDA Version                              : 13.0
+
+Attached GPUs                             : 1
+GPU 00000000:07:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3085406
+            GPU Utilization               : 11 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 6492 ms
+            Is Running                    : 0
+        Process ID                        : 3085759
+            GPU Utilization               : 13 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 5343 ms
+            Is Running                    : 0
+        Process ID                        : 3085936
+            GPU Utilization               : 11 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 5093 ms
+            Is Running                    : 0
+        Process ID                        : 3086280
+            GPU Utilization               : 8 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 8199 ms
+            Is Running                    : 0
+        Process ID                        : 3086493
+            GPU Utilization               : 13 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 5266 ms
+            Is Running                    : 0
+        Process ID                        : 3086639
+            GPU Utilization               : 9 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 6884 ms
+            Is Running                    : 0
+        Process ID                        : 3087022
+            GPU Utilization               : 13 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 5023 ms
+            Is Running                    : 0
+        Process ID                        : 3087106
+            GPU Utilization               : 13 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 4977 ms
+            Is Running                    : 0
+        Process ID                        : 3087371
+            GPU Utilization               : 14 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 5092 ms
+            Is Running                    : 0
+        Process ID                        : 3087605
+            GPU Utilization               : 13 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 4950 ms
+            Is Running                    : 0
+        Process ID                        : 3087921
+            GPU Utilization               : 13 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 5232 ms
+            Is Running                    : 0
+        Process ID                        : 3088003
+            GPU Utilization               : 14 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 4937 ms
+            Is Running                    : 0
+        Process ID                        : 3088228
+            GPU Utilization               : 13 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 5138 ms
+            Is Running                    : 0
+        Process ID                        : 3088458
+            GPU Utilization               : 8 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 7919 ms
+            Is Running                    : 0
+        Process ID                        : 3088728
+            GPU Utilization               : 13 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 15734 MiB
+            Time                          : 4808 ms
+            Is Running                    : 0
+
+Sun Feb  8 10:46:55 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:07:00.0 Off |                    0 |
+| N/A   30C    P0             74W /  400W |       0MiB /  40960MiB |     25%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
