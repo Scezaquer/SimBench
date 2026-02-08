@@ -87,13 +87,15 @@ def main():
 
     for lora_path in tqdm(lora_paths, desc="Processing LoRAs"):
         lora_name = os.path.basename(lora_path)
+        # Sanitize adapter name for PEFT/Torch (replace dots with underscores)
+        sanitized_adapter_name = lora_name.replace(".", "_")
         
         # Load LoRA adapter
         # Note: Unsloth models are PEFT models. 
         # We use standard PEFT load_adapter. 
         try:
-            model.load_adapter(lora_path, adapter_name=lora_name)
-            model.set_adapter(lora_name)
+            model.load_adapter(lora_path, adapter_name=sanitized_adapter_name)
+            model.set_adapter(sanitized_adapter_name)
         except Exception as e:
             print(f"Error loading adapter {lora_name}: {e}")
             continue

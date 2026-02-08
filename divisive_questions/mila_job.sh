@@ -17,5 +17,4 @@ python compute_lora_answers.py \
     --base_model "marcelbinz/Llama-3.1-Minitaur-8B" \
     --lora_dir "/home/mila/a/aurelien.buck-kaeffer/scratch/marcelbinz" \
     --questions_file "potential_questions.json" \
-    --output_file "divisive_questions_probabilities.json" \
-    --load_in_4bit
+    --output_file "divisive_questions_probabilities.json"
