@@ -10,10 +10,10 @@ source $HOME/ENV/bin/activate
 export HF_HUB_CACHE=$SCRATCH/HF-cache
 export UNSLOTH_CACHE_DIR=$SCRATCH/unsloth-cache
 export LOCAL_WORKDIR=/home/mila/a/aurelien.buck-kaeffer/SimBench
-export HF_HUB_OFFLINE=1
+# export HF_HUB_OFFLINE=1
 export HF_CACHE_LOCAL=$SCRATCH/HF-cache
 
-python find_divisive_questions.py \
+python compute_lora_answers.py \
     --base_model "marcelbinz/Llama-3.1-Minitaur-8B" \
     --lora_dir "/home/mila/a/aurelien.buck-kaeffer/scratch/marcelbinz" \
     --questions_file "potential_questions.json" \
