@@ -26,7 +26,7 @@ def calculate_entropy(probs):
 
 def main():
     parser = argparse.ArgumentParser(description="Find the most divisive questions based on model distributions.")
-    parser.add_argument("--input_file", type=str, default="results/divisive_questions_probabilities.json", help="Path to the distributions JSON.")
+    parser.add_argument("--input_file", type=str, default="divisive_questions_probabilities.json", help="Path to the distributions JSON.")
     parser.add_argument("--weights_file", type=str, help="Path to the weights CSV file (optional).")
     args = parser.parse_args()
 
