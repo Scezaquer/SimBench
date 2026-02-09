@@ -1,0 +1,3782 @@
+[
+    {
+        "question": "Should the government implement a universal basic income? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.5457680203481945,
+                "No": 0.4542319796518055
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.6228766820499454,
+                "No": 0.37712331795005455
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.7779680507398553,
+                "No": 0.22203194926014472
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.7428736590308742,
+                "No": 0.2571263409691258
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.43820344903504255,
+                "No": 0.5617965509649574
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.7978840259369192,
+                "No": 0.2021159740630808
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.5313214170152283,
+                "No": 0.4686785829847717
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.3485608362282774,
+                "No": 0.6514391637717226
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.5924295837645116,
+                "No": 0.40757041623548845
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.6787327496372189,
+                "No": 0.3212672503627811
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.5923487435611416,
+                "No": 0.40765125643885836
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7542311685782973,
+                "No": 0.24576883142170264
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.3768526729908345,
+                "No": 0.6231473270091655
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.32102554459706334,
+                "No": 0.6789744554029367
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.3210445075065596,
+                "No": 0.6789554924934403
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.6513935278419832,
+                "No": 0.3486064721580167
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.5935780080194516,
+                "No": 0.40642199198054835
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.5000266700479489,
+                "No": 0.4999733299520511
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.40693602673308293,
+                "No": 0.5930639732669171
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5618272839225871,
+                "No": 0.43817271607741287
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.42240068063720704,
+                "No": 0.577599319362793
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.3929597630174114,
+                "No": 0.6070402369825886
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.2451224644848341,
+                "No": 0.7548775355151659
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.5000571947117992,
+                "No": 0.49994280528820084
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5000523182245223,
+                "No": 0.49994768177547766
+            }
+        }
+    },
+    {
+        "question": "Is climate change primarily caused by human activity? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.7552337840852662,
+                "No": 0.24476621591473377
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.9149042359101185,
+                "No": 0.0850957640898815
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.9688572141156213,
+                "No": 0.031142785884378726
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.8592014405131707,
+                "No": 0.14079855948682932
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.7980262130641635,
+                "No": 0.2019737869358364
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.9603008693652404,
+                "No": 0.03969913063475958
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.880784674799867,
+                "No": 0.11921532520013299
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.6798395034195783,
+                "No": 0.32016049658042167
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.9237855347890438,
+                "No": 0.0762144652109562
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.9689197294036332,
+                "No": 0.031080270596366765
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.7558900189739137,
+                "No": 0.24410998102608622
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.9044534610139365,
+                "No": 0.09554653898606343
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.7315650029627979,
+                "No": 0.26843499703720214
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.7305215281382178,
+                "No": 0.2694784718617822
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.7558923522476219,
+                "No": 0.24410764775237812
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.9046420717485589,
+                "No": 0.09535792825144104
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.924167261459968,
+                "No": 0.07583273854003206
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.93995783827531,
+                "No": 0.06004216172469007
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.77701781303221,
+                "No": 0.22298218696779
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.7662663753207359,
+                "No": 0.233733624679264
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.9400624013167922,
+                "No": 0.05993759868320785
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.5933349050190538,
+                "No": 0.40666509498094616
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.7554119084443475,
+                "No": 0.2445880915556525
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.9400004443476973,
+                "No": 0.05999955565230273
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.706221110933317,
+                "No": 0.29377888906668304
+            }
+        }
+    },
+    {
+        "question": "Should the death penalty be abolished worldwide? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.5769757619424242,
+                "No": 0.42302423805757583
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.5000799687602557,
+                "No": 0.49992003123974427
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.8810620341082323,
+                "No": 0.11893796589176771
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.6666977198284375,
+                "No": 0.3333022801715625
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5932099305270583,
+                "No": 0.40679006947294166
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.7057514357012132,
+                "No": 0.2942485642987868
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.7308934511747209,
+                "No": 0.26910654882527907
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.43700304065554557,
+                "No": 0.5629969593444544
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.5932817556453025,
+                "No": 0.4067182443546975
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.6655078226457262,
+                "No": 0.3344921773542739
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.5916833188774573,
+                "No": 0.4083166811225427
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7057416392672752,
+                "No": 0.29425836073272477
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.40742059145673604,
+                "No": 0.592579408543264
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.4682813107028315,
+                "No": 0.5317186892971685
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.2947986864944769,
+                "No": 0.7052013135055231
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.56280406926837,
+                "No": 0.43719593073163004
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.43764808080031703,
+                "No": 0.562351919199683
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.46806560973089956,
+                "No": 0.5319343902691005
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.46876165293046024,
+                "No": 0.5312383470695398
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5325027451717016,
+                "No": 0.4674972548282984
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.5000567363535358,
+                "No": 0.4999432636464643
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.46868091645213034,
+                "No": 0.5313190835478697
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.3491880277852014,
+                "No": 0.6508119722147986
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.5926586969278699,
+                "No": 0.4073413030721302
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5000423711663581,
+                "No": 0.4999576288336419
+            }
+        }
+    },
+    {
+        "question": "Is it ethical to use animals for scientific research? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.5001002019861088,
+                "No": 0.4998997980138912
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.7768878233509806,
+                "No": 0.22311217664901936
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.7550302638717031,
+                "No": 0.24496973612829687
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.6794452377209059,
+                "No": 0.320554762279094
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5925283251605399,
+                "No": 0.4074716748394601
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.6519264915254135,
+                "No": 0.34807350847458646
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.6220374546866344,
+                "No": 0.37796254531336565
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.46931801499613945,
+                "No": 0.5306819850038605
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.500095645651132,
+                "No": 0.49990435434886804
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.8435336648043508,
+                "No": 0.15646633519564918
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.679201508688548,
+                "No": 0.32079849131145205
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7552494955111425,
+                "No": 0.24475050448885752
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.4372018215989591,
+                "No": 0.562798178401041
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.531361417048479,
+                "No": 0.4686385829515211
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.46860849818650135,
+                "No": 0.5313915018134986
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.6513971531228591,
+                "No": 0.348602846877141
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.6228606459413442,
+                "No": 0.3771393540586559
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.5941377454080482,
+                "No": 0.4058622545919518
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.5000139269430148,
+                "No": 0.4999860730569851
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.6505554476119528,
+                "No": 0.34944455238804717
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.7768623112337385,
+                "No": 0.2231376887662615
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.5924772993844569,
+                "No": 0.40752270061554313
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.43823342374373103,
+                "No": 0.5617665762562689
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.4683130691622459,
+                "No": 0.5316869308377541
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.563199746125688,
+                "No": 0.436800253874312
+            }
+        }
+    },
+    {
+        "question": "Should recreational marijuana be legalized? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.623071503131524,
+                "No": 0.376928496868476
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.7982840864539972,
+                "No": 0.20171591354600277
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.8993412686130307,
+                "No": 0.10065873138696936
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.8180888421274392,
+                "No": 0.1819111578725609
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.6515175484820261,
+                "No": 0.34848245151797386
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.8669334702406335,
+                "No": 0.13306652975936648
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.7059740047980457,
+                "No": 0.29402599520195427
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.43854618279465335,
+                "No": 0.5614538172053467
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.6931630458609914,
+                "No": 0.3068369541390086
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.8080535299586084,
+                "No": 0.1919464700413917
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.6931794191417864,
+                "No": 0.3068205808582137
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.8875421945341362,
+                "No": 0.11245780546586386
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.4071408841286057,
+                "No": 0.5928591158713943
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.5619400460930852,
+                "No": 0.43805995390691477
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.34815384771398583,
+                "No": 0.6518461522860142
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.8182020685097827,
+                "No": 0.18179793149021725
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.7984807771528112,
+                "No": 0.20151922284718882
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.622440230473583,
+                "No": 0.377559769526417
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.5932783786126439,
+                "No": 0.4067216213873562
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.6923839895044239,
+                "No": 0.30761601049557613
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.6930235949555336,
+                "No": 0.3069764050444664
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.6083007251391352,
+                "No": 0.3916992748608647
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.40795395652831407,
+                "No": 0.592046043471686
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.7310506126341527,
+                "No": 0.2689493873658473
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5932739442390245,
+                "No": 0.4067260557609756
+            }
+        }
+    },
+    {
+        "question": "Is it acceptable to genetically modify human embryos? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.407645406371704,
+                "No": 0.592354593628296
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.562893877611239,
+                "No": 0.43710612238876095
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.46852081584996536,
+                "No": 0.5314791841500347
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.5323779858089694,
+                "No": 0.46762201419103055
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.4080424530597363,
+                "No": 0.5919575469402637
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.4686691570026762,
+                "No": 0.5313308429973238
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.42331014323958355,
+                "No": 0.5766898567604165
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.2687949000180772,
+                "No": 0.7312050999819227
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.2694756108150955,
+                "No": 0.7305243891849045
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.46907138490221123,
+                "No": 0.5309286150977888
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.6228094435716297,
+                "No": 0.37719055642837035
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7189467002762107,
+                "No": 0.2810532997237893
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.3487657408593394,
+                "No": 0.6512342591406606
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.3488705427396922,
+                "No": 0.6511294572603078
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.32059212862056885,
+                "No": 0.6794078713794311
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.7549826503595402,
+                "No": 0.2450173496404599
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.5154591770182984,
+                "No": 0.4845408229817016
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.5000604758962691,
+                "No": 0.4999395241037309
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.35015009687463056,
+                "No": 0.6498499031253694
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5313071818431696,
+                "No": 0.4686928181568304
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.3785530973868302,
+                "No": 0.6214469026131698
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.4534531278009645,
+                "No": 0.5465468721990355
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.22241319348516417,
+                "No": 0.7775868065148358
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.34914727029289755,
+                "No": 0.6508527297071025
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.4073547708746095,
+                "No": 0.5926452291253905
+            }
+        }
+    },
+    {
+        "question": "Should the government provide free healthcare for all citizens? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.6220304753545354,
+                "No": 0.37796952464546457
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.7312906006008079,
+                "No": 0.2687093993991921
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.8806445623245602,
+                "No": 0.11935543767543971
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.8600521284920792,
+                "No": 0.13994787150792076
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5923475488491782,
+                "No": 0.4076524511508218
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.9048627189001431,
+                "No": 0.09513728109985689
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.7304768318915258,
+                "No": 0.26952316810847415
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.46824644886811334,
+                "No": 0.5317535511318867
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.8081423571533933,
+                "No": 0.19185764284660667
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.8519916889284654,
+                "No": 0.1480083110715346
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.6513637749082513,
+                "No": 0.34863622509174874
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.8171691137339503,
+                "No": 0.1828308862660497
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.43684843995926304,
+                "No": 0.563151560040737
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.5000122458771055,
+                "No": 0.4999877541228945
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.46944375457655196,
+                "No": 0.530556245423448
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.6790992385317618,
+                "No": 0.3209007614682382
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.78827870188989,
+                "No": 0.21172129811011
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.5615045746568655,
+                "No": 0.43849542534313446
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.5919360711960688,
+                "No": 0.40806392880393116
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.6653595108614625,
+                "No": 0.33464048913853756
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.7431688893516785,
+                "No": 0.25683111064832154
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.5155018300103067,
+                "No": 0.48449816998969325
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.37789842505173854,
+                "No": 0.6221015749482615
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.8516985237873123,
+                "No": 0.14830147621268772
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5925379398665074,
+                "No": 0.4074620601334927
+            }
+        }
+    },
+    {
+        "question": "Is it ethical to use artificial intelligence in military applications? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.5157427776281955,
+                "No": 0.48425722237180446
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.7553407982057253,
+                "No": 0.24465920179427475
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.6787244752795956,
+                "No": 0.32127552472040444
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.7066894894253075,
+                "No": 0.2933105105746925
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5318249074063132,
+                "No": 0.4681750925936868
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.6219717694596882,
+                "No": 0.3780282305403118
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.3774478538963456,
+                "No": 0.6225521461036544
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.3203575479631299,
+                "No": 0.6796424520368701
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.5000811823013612,
+                "No": 0.4999188176986387
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.7047170617367574,
+                "No": 0.2952829382632426
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.6799169929015312,
+                "No": 0.32008300709846876
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7769211760685596,
+                "No": 0.22307882393144043
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.4064125458203652,
+                "No": 0.5935874541796348
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.500013118906621,
+                "No": 0.4999868810933789
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.3487154472738993,
+                "No": 0.6512845527261008
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.7982239105866322,
+                "No": 0.20177608941336778
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.5000297719006233,
+                "No": 0.4999702280993767
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.5935721657606322,
+                "No": 0.4064278342393678
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.37728097949889267,
+                "No": 0.6227190205011074
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.6370691966033554,
+                "No": 0.36293080339664463
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.705304738231497,
+                "No": 0.29469526176850297
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.43888098141946535,
+                "No": 0.5611190185805347
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.29355418636186914,
+                "No": 0.7064458136381309
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.4076137835400509,
+                "No": 0.5923862164599492
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.3492626612689668,
+                "No": 0.6507373387310331
+            }
+        }
+    },
+    {
+        "question": "Should the voting age be lowered to 16? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.561780892030608,
+                "No": 0.438219107969392
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.6225964847254909,
+                "No": 0.3774035152745091
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.7059593432099742,
+                "No": 0.29404065679002583
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.6504477098681339,
+                "No": 0.3495522901318661
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5311973333077403,
+                "No": 0.4688026666922597
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.6225862827438878,
+                "No": 0.3774137172561121
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.5314637513863425,
+                "No": 0.46853624861365745
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.3490647533161574,
+                "No": 0.6509352466838426
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.6226276416518999,
+                "No": 0.3773723583481001
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.7983410561893399,
+                "No": 0.2016589438106601
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.6375612934804082,
+                "No": 0.3624387065195918
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7559914786939429,
+                "No": 0.24400852130605705
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.43771530310427015,
+                "No": 0.5622846968957298
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.4376581242885765,
+                "No": 0.5623418757114236
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.3779231619196006,
+                "No": 0.6220768380803994
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.4369926637145278,
+                "No": 0.5630073362854723
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.5620251670748716,
+                "No": 0.4379748329251284
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.4382004445589632,
+                "No": 0.5617995554410369
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.5320808903986972,
+                "No": 0.4679191096013028
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5773816257316946,
+                "No": 0.4226183742683054
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.5933210644941171,
+                "No": 0.40667893550588285
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.4224523819594242,
+                "No": 0.5775476180405757
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.46878176606445043,
+                "No": 0.5312182339355496
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.43744582360277834,
+                "No": 0.5625541763972216
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5310444223008616,
+                "No": 0.4689555776991384
+            }
+        }
+    },
+    {
+        "question": "Is it acceptable to censor hate speech on social media platforms? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.48479794879594973,
+                "No": 0.5152020512040503
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.5925302021883817,
+                "No": 0.40746979781161835
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.7425949167887409,
+                "No": 0.25740508321125904
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.693678804282271,
+                "No": 0.30632119571772903
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.7061071821467861,
+                "No": 0.2938928178532139
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.6370308987891155,
+                "No": 0.3629691012108845
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.5934035966608927,
+                "No": 0.40659640333910724
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.18249866032276993,
+                "No": 0.81750133967723
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.5769869335609564,
+                "No": 0.42301306643904363
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.8180322557959093,
+                "No": 0.1819677442040907
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.6376401580654741,
+                "No": 0.36235984193452586
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7770607758670166,
+                "No": 0.22293922413298342
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.3203107530061819,
+                "No": 0.6796892469938182
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.4694143211607987,
+                "No": 0.5305856788392013
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.3774856694736449,
+                "No": 0.6225143305263551
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.6222683974334585,
+                "No": 0.3777316025665415
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.4688017080330931,
+                "No": 0.5311982919669068
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.7543481542931301,
+                "No": 0.24565184570687
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.5309714175648794,
+                "No": 0.4690285824351206
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5322346300102656,
+                "No": 0.4677653699897344
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.6930277316070335,
+                "No": 0.3069722683929665
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.3627880447517117,
+                "No": 0.6372119552482882
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.32138231381309773,
+                "No": 0.6786176861869023
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.5630100124244802,
+                "No": 0.4369899875755198
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5913914852626494,
+                "No": 0.4086085147373506
+            }
+        }
+    },
+    {
+        "question": "Should the government implement stricter gun control laws? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.5306771668978507,
+                "No": 0.4693228331021493
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.531515613922412,
+                "No": 0.4684843860775881
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.915019201531349,
+                "No": 0.08498079846865102
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.679268050234616,
+                "No": 0.320731949765384
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.6215997517540628,
+                "No": 0.3784002482459372
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.7546979023830802,
+                "No": 0.2453020976169198
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.6228707904863678,
+                "No": 0.3771292095136322
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.4689018731402477,
+                "No": 0.5310981268597522
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.7056115529220865,
+                "No": 0.2943884470779135
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.8439635988002382,
+                "No": 0.15603640119976186
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.4694086359535906,
+                "No": 0.5305913640464094
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7316067853816877,
+                "No": 0.2683932146183124
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.4385014107170207,
+                "No": 0.5614985892829794
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.4072500631267811,
+                "No": 0.5927499368732189
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.37784183461245485,
+                "No": 0.6221581653875452
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.4077843217954157,
+                "No": 0.5922156782045843
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.43666692615011127,
+                "No": 0.5633330738498887
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.46884048316220367,
+                "No": 0.5311595168377964
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.4689007213547259,
+                "No": 0.5310992786452742
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.500081633191561,
+                "No": 0.49991836680843904
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.6790030307024398,
+                "No": 0.3209969692975601
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.4225388427556807,
+                "No": 0.5774611572443193
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.24480897980939048,
+                "No": 0.7551910201906095
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.5935726728589653,
+                "No": 0.40642732714103474
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.46872888959873404,
+                "No": 0.531271110401266
+            }
+        }
+    },
+    {
+        "question": "Is it ethical to use human cloning for reproductive purposes? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.4078326593141704,
+                "No": 0.5921673406858297
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.6511186096594105,
+                "No": 0.34888139034058957
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.5314365984021849,
+                "No": 0.46856340159781507
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.6227125712987258,
+                "No": 0.37728742870127424
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.4074673250084546,
+                "No": 0.5925326749915454
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.4691475411752557,
+                "No": 0.5308524588247443
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.37696391808429947,
+                "No": 0.6230360819157005
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.18290420951687286,
+                "No": 0.8170957904831272
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.29349472856080167,
+                "No": 0.7065052714391983
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.6228929669279433,
+                "No": 0.37710703307205673
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.5308655234172397,
+                "No": 0.4691344765827603
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7048519959762574,
+                "No": 0.2951480040237426
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.18253313271636745,
+                "No": 0.8174668672836325
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.4078161596090739,
+                "No": 0.5921838403909261
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.32113234807948965,
+                "No": 0.6788676519205104
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.5933821531863691,
+                "No": 0.4066178468136309
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.4377525833096031,
+                "No": 0.5622474166903969
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.4698410219332065,
+                "No": 0.5301589780667935
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.3206773553222865,
+                "No": 0.6793226446777135
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.4525526199906409,
+                "No": 0.5474473800093591
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.3630515343380597,
+                "No": 0.6369484656619403
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.4228122861492369,
+                "No": 0.5771877138507632
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.2021098966854029,
+                "No": 0.7978901033145971
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.24518822204467008,
+                "No": 0.7548117779553299
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.31999074332264016,
+                "No": 0.6800092566773598
+            }
+        }
+    },
+    {
+        "question": "Should the government provide free college education for all citizens? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.4379450956395134,
+                "No": 0.5620549043604866
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.592687238437016,
+                "No": 0.407312761562984
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.5938497778444111,
+                "No": 0.40615022215558894
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.7770777241901994,
+                "No": 0.22292227580980065
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.43772528497385843,
+                "No": 0.5622747150261416
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.7543377645407529,
+                "No": 0.24566223545924715
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.43710457873993963,
+                "No": 0.5628954212600604
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.2445241483613143,
+                "No": 0.7554758516386857
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.592389321319446,
+                "No": 0.407610678680554
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.6225249340910126,
+                "No": 0.3774750659089874
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.5472538841016604,
+                "No": 0.4527461158983395
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7313191662462895,
+                "No": 0.2686808337537106
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.2698712502157786,
+                "No": 0.7301287497842214
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.3775930503763914,
+                "No": 0.6224069496236087
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.26923055973899,
+                "No": 0.73076944026101
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.438591248716178,
+                "No": 0.5614087512838221
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.562400595781871,
+                "No": 0.437599404218129
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.34850061127124793,
+                "No": 0.6514993887287521
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.4382138095625474,
+                "No": 0.5617861904374526
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5153273052334387,
+                "No": 0.4846726947665613
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.3078155465430287,
+                "No": 0.6921844534569713
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.3345743791075798,
+                "No": 0.6654256208924202
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.32031933957076697,
+                "No": 0.679680660429233
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.4386130393902415,
+                "No": 0.5613869606097586
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.43755675216512563,
+                "No": 0.5624432478348744
+            }
+        }
+    },
+    {
+        "question": "Is it acceptable to use performance-enhancing drugs in professional sports? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.45330657306466965,
+                "No": 0.5466934269353303
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.6216168156118913,
+                "No": 0.3783831843881087
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.5325711167382631,
+                "No": 0.46742888326173687
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.7314344932148973,
+                "No": 0.26856550678510277
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.3205322793206138,
+                "No": 0.6794677206793862
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.43824509596268113,
+                "No": 0.5617549040373189
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.5002161621470411,
+                "No": 0.4997838378529589
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.09551601652367675,
+                "No": 0.9044839834763233
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.48451165885082836,
+                "No": 0.5154883411491716
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.706297894414185,
+                "No": 0.293702105585815
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.5788894285505795,
+                "No": 0.4211105714494206
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7881331639394699,
+                "No": 0.21186683606053008
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.26913493920885895,
+                "No": 0.730865060791141
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.32041104430096484,
+                "No": 0.6795889556990352
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.2562429665031885,
+                "No": 0.7437570334968114
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.7548253165618403,
+                "No": 0.24517468343815976
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.607731457262847,
+                "No": 0.39226854273715295
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.407461730895229,
+                "No": 0.592538269104771
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.34864750249710746,
+                "No": 0.6513524975028926
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5472529802542588,
+                "No": 0.45274701974574116
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.5316326748874368,
+                "No": 0.46836732511256324
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.5302731525401551,
+                "No": 0.46972684745984494
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.22239448278172472,
+                "No": 0.7776055172182753
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.3487305912153641,
+                "No": 0.6512694087846359
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.376884765276396,
+                "No": 0.623115234723604
+            }
+        }
+    },
+    {
+        "question": "Is it acceptable to create separate categories for athletes using performance-enhancing drugs in professional sports? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.39220429876502894,
+                "No": 0.6077957012349711
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.5626348111458185,
+                "No": 0.43736518885418146
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.40740265615188814,
+                "No": 0.5925973438481119
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.5933865324242467,
+                "No": 0.4066134675757534
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.4698735247625286,
+                "No": 0.5301264752374714
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.4380706322453895,
+                "No": 0.5619293677546104
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.46946601735530485,
+                "No": 0.5305339826446951
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.1069730193652097,
+                "No": 0.8930269806347902
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.3927171293435805,
+                "No": 0.6072828706564195
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.5159723289777095,
+                "No": 0.48402767102229055
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.43740645467794503,
+                "No": 0.562593545322055
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7553979347868334,
+                "No": 0.2446020652131667
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.32070424512222023,
+                "No": 0.6792957548777798
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.2944235726711371,
+                "No": 0.7055764273288629
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.22246770519239434,
+                "No": 0.7775322948076057
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.6219387818224337,
+                "No": 0.3780612181775663
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.3495501619815284,
+                "No": 0.6504498380184717
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.37892033971842104,
+                "No": 0.621079660281579
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.2933241244190103,
+                "No": 0.7066758755809897
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5467239764960888,
+                "No": 0.45327602350391116
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.40837723283220023,
+                "No": 0.5916227671677998
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.22297718576197503,
+                "No": 0.777022814238025
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.22198030518681217,
+                "No": 0.7780196948131878
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.3202164808607517,
+                "No": 0.6797835191392483
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.34841652010075574,
+                "No": 0.6515834798992443
+            }
+        }
+    },
+    {
+        "question": "Should the government implement a carbon tax to combat climate change? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.6219301648645922,
+                "No": 0.3780698351354078
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.6515188794095905,
+                "No": 0.34848112059040953
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.8675882302136887,
+                "No": 0.13241176978631125
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.7549436882055091,
+                "No": 0.24505631179449097
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.623665331271451,
+                "No": 0.3763346687285491
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.8670122318948131,
+                "No": 0.13298776810518684
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.6233216687762142,
+                "No": 0.37667833122378575
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.4376494937679881,
+                "No": 0.5623505062320119
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.7309817222307411,
+                "No": 0.2690182777692589
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.6921391244673403,
+                "No": 0.30786087553265973
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.5000628814279516,
+                "No": 0.49993711857204837
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7772672353224777,
+                "No": 0.22273276467752232
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.500063319440579,
+                "No": 0.499936680559421
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.43750910386097236,
+                "No": 0.5624908961390276
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.3770399379621249,
+                "No": 0.6229600620378751
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.5314874399290206,
+                "No": 0.4685125600709794
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.7063869850385739,
+                "No": 0.29361301496142617
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.6229701071925913,
+                "No": 0.37702989280740873
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.43808210170533,
+                "No": 0.56191789829467
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.592379395421742,
+                "No": 0.407620604578258
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.40737555884390153,
+                "No": 0.5926244411560985
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.3481787059493266,
+                "No": 0.6518212940506733
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.294128880238681,
+                "No": 0.705871119761319
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.6222625889056237,
+                "No": 0.37773741109437636
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5620675228300979,
+                "No": 0.43793247716990213
+            }
+        }
+    },
+    {
+        "question": "Is it ethical to use embryonic stem cells for medical research? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.5933627885744098,
+                "No": 0.4066372114255902
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.6799766763001055,
+                "No": 0.32002332369989445
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.7550237656555808,
+                "No": 0.2449762343444192
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.6653928302178004,
+                "No": 0.3346071697821996
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5934389210121245,
+                "No": 0.4065610789878755
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.6790395560141586,
+                "No": 0.3209604439858414
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.7773215005156221,
+                "No": 0.22267849948437796
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.22188684839683684,
+                "No": 0.7781131516031632
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.7545504027676736,
+                "No": 0.2454495972323264
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.8743272465160981,
+                "No": 0.12567275348390197
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.5936677995343647,
+                "No": 0.4063322004656354
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7303149203316387,
+                "No": 0.26968507966836125
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.407022921140887,
+                "No": 0.592977078859113
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.4692626123835576,
+                "No": 0.5307373876164424
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.3209515679904528,
+                "No": 0.6790484320095471
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.7776730011821291,
+                "No": 0.2223269988178709
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.8440977681077183,
+                "No": 0.15590223189228175
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.59261823912642,
+                "No": 0.40738176087358
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.46949577771660905,
+                "No": 0.5305042222833909
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5320871655592508,
+                "No": 0.4679128344407491
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.7977872655230639,
+                "No": 0.20221273447693616
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.5317352484680591,
+                "No": 0.4682647515319409
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.37703496754087557,
+                "No": 0.6229650324591244
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.6791544272111676,
+                "No": 0.3208455727888324
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5000591108457597,
+                "No": 0.49994088915424034
+            }
+        }
+    },
+    {
+        "question": "Should the government provide free childcare for all citizens? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.5766688509256818,
+                "No": 0.4233311490743183
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.73090420544279,
+                "No": 0.26909579455720994
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.7778418971413522,
+                "No": 0.2221581028586478
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.8084255669820885,
+                "No": 0.1915744330179116
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5320043919991947,
+                "No": 0.46799560800080536
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.8516273703565775,
+                "No": 0.14837262964342243
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.5923921968265944,
+                "No": 0.4076078031734056
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.320775139711714,
+                "No": 0.679224860288286
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.7055015401144282,
+                "No": 0.29449845988557183
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.8180621541208716,
+                "No": 0.18193784587912842
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.6232412899282367,
+                "No": 0.3767587100717633
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7773107419497126,
+                "No": 0.22268925805028736
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.4066169284411236,
+                "No": 0.5933830715588764
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.43765779340343935,
+                "No": 0.5623422065965606
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.37724032946304886,
+                "No": 0.6227596705369511
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.6519806391851196,
+                "No": 0.34801936081488044
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.7772489425074658,
+                "No": 0.22275105749253427
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.5914042978573372,
+                "No": 0.40859570214266283
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.5000076853564496,
+                "No": 0.49999231464355043
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5934399104015424,
+                "No": 0.4065600895984575
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.5317993147615687,
+                "No": 0.4682006852384312
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.45384363024903607,
+                "No": 0.5461563697509639
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.37820354237821685,
+                "No": 0.6217964576217831
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.59310258077945,
+                "No": 0.40689741922055
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5623748836753052,
+                "No": 0.43762511632469486
+            }
+        }
+    },
+    {
+        "question": "Is it acceptable to use facial recognition technology in public spaces? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.2697810055761822,
+                "No": 0.7302189944238178
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.46898655209116064,
+                "No": 0.5310134479088394
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.3496350790722769,
+                "No": 0.650364920927723
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.4844104875941807,
+                "No": 0.5155895124058193
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.43810369450435427,
+                "No": 0.5618963054956457
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.28094213717663546,
+                "No": 0.7190578628233645
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.2568620060914119,
+                "No": 0.743137993908588
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.14791523387562305,
+                "No": 0.8520847661243769
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.1823032304030404,
+                "No": 0.8176967695969596
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.37830876954347675,
+                "No": 0.6216912304565233
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.45406047016683976,
+                "No": 0.5459395298331602
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7430049852728544,
+                "No": 0.2569950147271456
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.34863120822946814,
+                "No": 0.6513687917705319
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.37748401327222586,
+                "No": 0.6225159867277741
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.21212013583284245,
+                "No": 0.7878798641671576
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.5000360219584638,
+                "No": 0.4999639780415363
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.18184308245989342,
+                "No": 0.8181569175401066
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.2688069734220099,
+                "No": 0.7311930265779901
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.26974068343722013,
+                "No": 0.7302593165627799
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.3773995801620111,
+                "No": 0.6226004198379889
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.2565581057751475,
+                "No": 0.7434418942248525
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.4068768936348242,
+                "No": 0.5931231063651757
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.181712859904261,
+                "No": 0.818287140095739
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.08489817263554934,
+                "No": 0.9151018273644507
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.2947126289014793,
+                "No": 0.7052873710985207
+            }
+        }
+    },
+    {
+        "question": "Should the government implement a wealth tax on the richest individuals? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.6216931356513481,
+                "No": 0.3783068643486519
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.6510355264588089,
+                "No": 0.34896447354119114
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.7549689468326356,
+                "No": 0.2450310531673644
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.7051197047825082,
+                "No": 0.29488029521749176
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5928221298317942,
+                "No": 0.4071778701682059
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.7765680768876296,
+                "No": 0.22343192311237034
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.7057580375565923,
+                "No": 0.29424196244340767
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.4079170876854783,
+                "No": 0.5920829123145217
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.943292090196123,
+                "No": 0.05670790980387693
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.7985367554853119,
+                "No": 0.20146324451468808
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.5315725434744594,
+                "No": 0.4684274565255407
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7987824288366666,
+                "No": 0.20121757116333336
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.3765652242247818,
+                "No": 0.6234347757752182
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.37675546301216023,
+                "No": 0.6232445369878398
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.40713101011602887,
+                "No": 0.5928689898839712
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.5930479725589256,
+                "No": 0.4069520274410744
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.8176923122744232,
+                "No": 0.1823076877255768
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.5000211262855221,
+                "No": 0.49997887371447786
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.5000082319938016,
+                "No": 0.4999917680061984
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.6078756036298979,
+                "No": 0.39212439637010205
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.3919351790860594,
+                "No": 0.6080648209139407
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.3492342552237172,
+                "No": 0.6507657447762828
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.3197422994944224,
+                "No": 0.6802577005055777
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.678835096993067,
+                "No": 0.321164903006933
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5620663939379005,
+                "No": 0.4379336060620995
+            }
+        }
+    },
+    {
+        "question": "Is it ethical to use animals for entertainment purposes, such as in circuses or zoos? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.2814153087583292,
+                "No": 0.7185846912416708
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.500162611630687,
+                "No": 0.49983738836931296
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.37746764046568804,
+                "No": 0.622532359534312
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.5000269461884617,
+                "No": 0.49997305381153834
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.3773768745038867,
+                "No": 0.6226231254961133
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.2936627305636959,
+                "No": 0.706337269436304
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.26955428792419994,
+                "No": 0.7304457120758001
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.24522042092161217,
+                "No": 0.7547795790783878
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.11945658679919467,
+                "No": 0.8805434132008053
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.2456861764023641,
+                "No": 0.7543138235976359
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.500145462561912,
+                "No": 0.49985453743808805
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.6218895759529168,
+                "No": 0.3781104240470832
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.1333042798364459,
+                "No": 0.8666957201635541
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.3483997678062972,
+                "No": 0.6516002321937028
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.2021597689231731,
+                "No": 0.7978402310768269
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.34818775243147176,
+                "No": 0.6518122475685282
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.16387750678284044,
+                "No": 0.8361224932171596
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.2450659575034333,
+                "No": 0.7549340424965667
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.24434476895668544,
+                "No": 0.7556552310433146
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.3788459671365616,
+                "No": 0.6211540328634384
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.1824809487709744,
+                "No": 0.8175190512290256
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.29437701595669286,
+                "No": 0.7056229840433071
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.20214553619540265,
+                "No": 0.7978544638045973
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.1484280894671408,
+                "No": 0.8515719105328592
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.2692790628356669,
+                "No": 0.7307209371643332
+            }
+        }
+    },
+    {
+        "question": "Is it acceptable to use drones for surveillance purposes? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.4844761066326965,
+                "No": 0.5155238933673034
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.5918532023023315,
+                "No": 0.4081467976976685
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.704941558503821,
+                "No": 0.295058441496179
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.6789303500412024,
+                "No": 0.3210696499587976
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5000414093114285,
+                "No": 0.49995859068857146
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.468895940059371,
+                "No": 0.531104059940629
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.5304350916824309,
+                "No": 0.46956490831756914
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.1642640313224445,
+                "No": 0.8357359686775555
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.37740108447431164,
+                "No": 0.6225989155256884
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.8073880044640974,
+                "No": 0.1926119955359026
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.593552654643352,
+                "No": 0.40644734535664795
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.8078600441858205,
+                "No": 0.19213995581417948
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.321136501285494,
+                "No": 0.678863498714506
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.40658438281640963,
+                "No": 0.5934156171835904
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.3484049505880283,
+                "No": 0.6515950494119718
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.6217457451562326,
+                "No": 0.37825425484376735
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.5310645659644505,
+                "No": 0.4689354340355495
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.4687982704238889,
+                "No": 0.5312017295761111
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.34907268396266083,
+                "No": 0.6509273160373391
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5000928121669451,
+                "No": 0.4999071878330549
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.5628949710998251,
+                "No": 0.43710502890017483
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.531498293947108,
+                "No": 0.468501706052892
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.2941475261035003,
+                "No": 0.7058524738964997
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.4373111735828183,
+                "No": 0.5626888264171818
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.3771908289615558,
+                "No": 0.6228091710384442
+            }
+        }
+    },
+    {
+        "question": "Should the government implement a universal basic income for artists and creatives? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.592514794877796,
+                "No": 0.40748520512220404
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.7062248432708848,
+                "No": 0.29377515672911525
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.7312744828911988,
+                "No": 0.26872551710880116
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.7430865698079786,
+                "No": 0.2569134301920214
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.43867788581468825,
+                "No": 0.5613221141853117
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.7983228976526812,
+                "No": 0.2016771023473188
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.5313960544907793,
+                "No": 0.4686039455092207
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.4075935531503388,
+                "No": 0.5924064468496612
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.5933024723464753,
+                "No": 0.40669752765352474
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.6501753860255235,
+                "No": 0.3498246139744765
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.6517070702947625,
+                "No": 0.34829292970523745
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7781750414149783,
+                "No": 0.22182495858502166
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.468990310527829,
+                "No": 0.531009689472171
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.40683653217666654,
+                "No": 0.5931634678233334
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.3199139994903142,
+                "No": 0.6800860005096858
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.798141231418904,
+                "No": 0.20185876858109592
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.5924313648059174,
+                "No": 0.4075686351940826
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.6509975184547775,
+                "No": 0.3490024815452225
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.5629349902367718,
+                "No": 0.4370650097632281
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.6220729536950967,
+                "No": 0.37792704630490326
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.5634000339531005,
+                "No": 0.43659996604689955
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.46900087572824195,
+                "No": 0.530999124271758
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.3780362492780088,
+                "No": 0.6219637507219913
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.5629484056082287,
+                "No": 0.4370515943917714
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.5924305959418623,
+                "No": 0.4075694040581377
+            }
+        }
+    },
+    {
+        "question": "Is it ethical to use human subjects for medical research without their informed consent? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.33486565163668347,
+                "No": 0.6651343483633165
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.7773239047235203,
+                "No": 0.22267609527647966
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.29487586289566275,
+                "No": 0.7051241371043372
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.6654944711444536,
+                "No": 0.33450552885554646
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.4382625650982747,
+                "No": 0.5617374349017252
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.4078797987556299,
+                "No": 0.5921202012443701
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.3784817759049672,
+                "No": 0.6215182240950328
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.24456362842139406,
+                "No": 0.755436371578606
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.4076414590583513,
+                "No": 0.5923585409416487
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.5001276371481744,
+                "No": 0.4998723628518256
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.57815792695633,
+                "No": 0.42184207304367005
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.6790063630601703,
+                "No": 0.3209936369398298
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.24465658068914656,
+                "No": 0.7553434193108535
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.4378187935227818,
+                "No": 0.5621812064772183
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.32006582129730793,
+                "No": 0.679934178702692
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.6505617757575867,
+                "No": 0.34943822424241333
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.3476496535586701,
+                "No": 0.6523503464413299
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.500027053189648,
+                "No": 0.49997294681035204
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.3486304228154173,
+                "No": 0.6513695771845828
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.4686980390002536,
+                "No": 0.5313019609997464
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.5001056915184671,
+                "No": 0.499894308481533
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.5307191934349654,
+                "No": 0.4692808065650345
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.2683708961144397,
+                "No": 0.7316291038855604
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.32113051486646016,
+                "No": 0.6788694851335398
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.43772992711317144,
+                "No": 0.5622700728868285
+            }
+        }
+    },
+    {
+        "question": "Should the government provide free mental health services for all citizens? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.6509343776982854,
+                "No": 0.34906562230171456
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.8353993028919978,
+                "No": 0.16460069710800213
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.8673948511046592,
+                "No": 0.1326051488953408
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.844179562275849,
+                "No": 0.15582043772415097
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.6500379109755707,
+                "No": 0.3499620890244293
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.9045411422872485,
+                "No": 0.09545885771275149
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.7985329705954103,
+                "No": 0.20146702940458974
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.4384757776529625,
+                "No": 0.5615242223470375
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.7881226383622402,
+                "No": 0.21187736163775978
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.7984107151323104,
+                "No": 0.2015892848676896
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.6924771103871302,
+                "No": 0.3075228896128698
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.8519551011321211,
+                "No": 0.14804489886787892
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.5000662753211141,
+                "No": 0.49993372467888586
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.5306713192930147,
+                "No": 0.4693286807069853
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.5315878955977161,
+                "No": 0.46841210440228387
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.817746470293308,
+                "No": 0.18225352970669195
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.8178122667741367,
+                "No": 0.18218773322586337
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.7056612805009922,
+                "No": 0.2943387194990078
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.5630697941446778,
+                "No": 0.43693020585532216
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.7192031586597142,
+                "No": 0.28079684134028576
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.6931982965562872,
+                "No": 0.3068017034437129
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.6067708415476389,
+                "No": 0.39322915845236106
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.5625146841026567,
+                "No": 0.4374853158973433
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.7767877282291179,
+                "No": 0.22321227177088207
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.7050297292235845,
+                "No": 0.2949702707764154
+            }
+        }
+    },
+    {
+        "question": "Is it acceptable to use genetic engineering to enhance human intelligence? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.500102697345787,
+                "No": 0.4998973026542129
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.562075316481661,
+                "No": 0.43792468351833896
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.5304943446134005,
+                "No": 0.46950565538659944
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.6792299139212673,
+                "No": 0.3207700860787327
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.4691605195684958,
+                "No": 0.5308394804315042
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.4691387368712265,
+                "No": 0.5308612631287735
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.43761244679346845,
+                "No": 0.5623875532065316
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.22307392781691954,
+                "No": 0.7769260721830805
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.4235149264593078,
+                "No": 0.5764850735406922
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.5160862079694662,
+                "No": 0.4839137920305337
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.5924016748327705,
+                "No": 0.4075983251672295
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7980104841106994,
+                "No": 0.20198951588930056
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.436889207719356,
+                "No": 0.563110792280644
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.4386261774140099,
+                "No": 0.5613738225859901
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.3772687278235919,
+                "No": 0.6227312721764081
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.7544668220590195,
+                "No": 0.2455331779409805
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.562562367729575,
+                "No": 0.43743763227042504
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.5314501238435161,
+                "No": 0.4685498761564839
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.3775972277708657,
+                "No": 0.6224027722291343
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.45343682344345915,
+                "No": 0.5465631765565409
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.4079229297175289,
+                "No": 0.5920770702824711
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.4534994311911804,
+                "No": 0.5465005688088196
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.2938653495251567,
+                "No": 0.7061346504748434
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.347632442447157,
+                "No": 0.6523675575528429
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.4692747707073776,
+                "No": 0.5307252292926223
+            }
+        }
+    },
+    {
+        "question": "Is it ethical to use animals for food production? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.4688307728392166,
+                "No": 0.5311692271607834
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.8176688456347415,
+                "No": 0.18233115436525846
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.7061423569339335,
+                "No": 0.29385764306606654
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.6651425823932929,
+                "No": 0.33485741760670706
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5324003995826135,
+                "No": 0.4675996004173865
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.5939974884765249,
+                "No": 0.40600251152347516
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.4384756006272211,
+                "No": 0.5615243993727789
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.5312799259130212,
+                "No": 0.46872007408697886
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.40736539892957147,
+                "No": 0.5926346010704285
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.6080452369079722,
+                "No": 0.39195476309202787
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.6922556003199115,
+                "No": 0.3077443996800885
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7310021604240079,
+                "No": 0.2689978395759921
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.40723756730249017,
+                "No": 0.5927624326975098
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.5313589722941259,
+                "No": 0.4686410277058742
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.3491874469922398,
+                "No": 0.6508125530077602
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.8355456295516508,
+                "No": 0.16445437044834924
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.500037856714783,
+                "No": 0.499962143285217
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.6236374684132026,
+                "No": 0.37636253158679744
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.4689131134252966,
+                "No": 0.5310868865747034
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.6657417385057471,
+                "No": 0.33425826149425286
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.5773809804467035,
+                "No": 0.4226190195532965
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.623477946258663,
+                "No": 0.37652205374133696
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.43784703391639407,
+                "No": 0.562152966083606
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.4377035086832092,
+                "No": 0.5622964913167908
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.46858757481612523,
+                "No": 0.5314124251838748
+            }
+        }
+    },
+    {
+        "question": "Is it acceptable to use surveillance technology to monitor public spaces for security purposes? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.4084716599567237,
+                "No": 0.5915283400432764
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.40802492323860834,
+                "No": 0.5919750767613917
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.46826637874331384,
+                "No": 0.5317336212566861
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.5161632385052386,
+                "No": 0.48383676149476135
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.5314680310337061,
+                "No": 0.4685319689662939
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.40807825270501613,
+                "No": 0.5919217472949839
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.5000871963697838,
+                "No": 0.49991280363021623
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.1331364539591751,
+                "No": 0.8668635460408249
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.362380538662033,
+                "No": 0.637619461337967
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.730974529541853,
+                "No": 0.269025470458147
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.4680623388772258,
+                "No": 0.5319376611227742
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.8182125613600809,
+                "No": 0.1817874386399191
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.2942004831370199,
+                "No": 0.7057995168629801
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.40794452840566114,
+                "No": 0.5920554715943389
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.24464429958221343,
+                "No": 0.7553557004177865
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.5617730009985323,
+                "No": 0.4382269990014676
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.406827211792181,
+                "No": 0.593172788207819
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.2697440608850916,
+                "No": 0.7302559391149084
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.29438161059757495,
+                "No": 0.705618389402425
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.40735561693874156,
+                "No": 0.5926443830612584
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.5777558981543873,
+                "No": 0.4222441018456127
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.2804532151534926,
+                "No": 0.7195467848465075
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.26958708525999836,
+                "No": 0.7304129147400016
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.2946826535789773,
+                "No": 0.7053173464210227
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.34900662563830437,
+                "No": 0.6509933743616956
+            }
+        }
+    },
+    {
+        "question": "Should it be legal to use copyrighted material to train artificial intelligence models? You may only answer with 'Yes' or 'No'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Yes": 0.48460457371795357,
+                "No": 0.5153954262820465
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Yes": 0.4688918970129818,
+                "No": 0.5311081029870183
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Yes": 0.7773787205358835,
+                "No": 0.22262127946411644
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Yes": 0.5920117674235987,
+                "No": 0.4079882325764013
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Yes": 0.46860872706679557,
+                "No": 0.5313912729332044
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Yes": 0.4379714531488567,
+                "No": 0.5620285468511432
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Yes": 0.562868986033489,
+                "No": 0.437131013966511
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Yes": 0.26939559068033103,
+                "No": 0.730604409319669
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Yes": 0.3209267650201705,
+                "No": 0.6790732349798295
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Yes": 0.650522882017675,
+                "No": 0.3494771179823249
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Yes": 0.5320333189587657,
+                "No": 0.4679666810412343
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Yes": 0.7057237485084467,
+                "No": 0.29427625149155334
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Yes": 0.407110239614627,
+                "No": 0.592889760385373
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Yes": 0.468248273807983,
+                "No": 0.5317517261920169
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Yes": 0.2443641739750317,
+                "No": 0.7556358260249683
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Yes": 0.5000259382680575,
+                "No": 0.49997406173194253
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Yes": 0.6515998619261305,
+                "No": 0.34840013807386955
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Yes": 0.4074377735754424,
+                "No": 0.5925622264245576
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Yes": 0.4077518633230739,
+                "No": 0.5922481366769261
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Yes": 0.5000925863488118,
+                "No": 0.4999074136511882
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Yes": 0.5318554007460202,
+                "No": 0.46814459925397983
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Yes": 0.5000329650559797,
+                "No": 0.4999670349440203
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Yes": 0.32135838006593714,
+                "No": 0.6786416199340629
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Yes": 0.4366612756806033,
+                "No": 0.5633387243193967
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Yes": 0.46861867064921364,
+                "No": 0.5313813293507864
+            }
+        }
+    },
+    {
+        "question": "Would you rather vote for a candidate who prioritizes economic growth over environmental protection, or a candidate who prioritizes environmental protection over economic growth? You may only answer with 'Economic Growth' or 'Environmental Protection'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Economic Growth": 0.7298743364932928,
+                "Environmental Protection": 0.27012566350670714
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Economic Growth": 0.9465759618219046,
+                "Environmental Protection": 0.0534240381780954
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Economic Growth": 0.8738051032873895,
+                "Environmental Protection": 0.12619489671261053
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Economic Growth": 0.932102339997046,
+                "Environmental Protection": 0.06789766000295401
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Economic Growth": 0.9241780317515451,
+                "Environmental Protection": 0.07582196824845493
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Economic Growth": 0.9668202270191889,
+                "Environmental Protection": 0.03317977298081115
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Economic Growth": 0.7865273323558517,
+                "Environmental Protection": 0.21347266764414832
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Economic Growth": 0.9668357892676571,
+                "Environmental Protection": 0.0331642107323429
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Economic Growth": 0.5292635079833188,
+                "Environmental Protection": 0.47073649201668116
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Economic Growth": 0.8726061060008311,
+                "Environmental Protection": 0.1273938939991689
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Economic Growth": 0.9489337430113487,
+                "Environmental Protection": 0.051066256988651346
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Economic Growth": 0.8931402129095745,
+                "Environmental Protection": 0.10685978709042558
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Economic Growth": 0.8176477722526655,
+                "Environmental Protection": 0.18235222774733453
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Economic Growth": 0.9523723645496232,
+                "Environmental Protection": 0.04762763545037688
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Economic Growth": 0.9722448931487314,
+                "Environmental Protection": 0.027755106851268575
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Economic Growth": 0.9796225280096248,
+                "Environmental Protection": 0.020377471990375217
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Economic Growth": 0.9192701811503464,
+                "Environmental Protection": 0.08072981884965356
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Economic Growth": 0.9145838332638413,
+                "Environmental Protection": 0.08541616673615866
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Economic Growth": 0.8990017243553441,
+                "Environmental Protection": 0.10099827564465595
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Economic Growth": 0.8864161781111296,
+                "Environmental Protection": 0.11358382188887042
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Economic Growth": 0.8586358376660436,
+                "Environmental Protection": 0.1413641623339564
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Economic Growth": 0.9145355137523064,
+                "Environmental Protection": 0.08546448624769366
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Economic Growth": 0.9242288328825276,
+                "Environmental Protection": 0.0757711671174725
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Economic Growth": 0.9740032026876511,
+                "Environmental Protection": 0.02599679731234893
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Economic Growth": 0.859755572470575,
+                "Environmental Protection": 0.14024442752942504
+            }
+        }
+    },
+    {
+        "question": "Would you rather vote for Kamala Harris or Donald Trump? You may only answer with 'Kamala Harris' or 'Donald Trump'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Kamala Harris": 0.9196779436981994,
+                "Donald Trump": 0.08032205630180052
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Kamala Harris": 0.9524856435762512,
+                "Donald Trump": 0.047514356423748766
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Kamala Harris": 0.468053977841349,
+                "Donald Trump": 0.5319460221586509
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Kamala Harris": 0.7878404559187334,
+                "Donald Trump": 0.21215954408126655
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Kamala Harris": 0.7654509630313102,
+                "Donald Trump": 0.23454903696868978
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Kamala Harris": 0.8867299564170488,
+                "Donald Trump": 0.11327004358295129
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Kamala Harris": 0.8071822850755602,
+                "Donald Trump": 0.19281771492443975
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Kamala Harris": 0.9495872722275113,
+                "Donald Trump": 0.05041272777248868
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Kamala Harris": 0.892833328099804,
+                "Donald Trump": 0.10716667190019598
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Kamala Harris": 0.8511837655016911,
+                "Donald Trump": 0.1488162344983089
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Kamala Harris": 0.9193040950294622,
+                "Donald Trump": 0.08069590497053776
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Kamala Harris": 0.8932925072894063,
+                "Donald Trump": 0.1067074927105937
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Kamala Harris": 0.8738839583355043,
+                "Donald Trump": 0.1261160416644958
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Kamala Harris": 0.8668587432151117,
+                "Donald Trump": 0.13314125678488828
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Kamala Harris": 0.7304411323775903,
+                "Donald Trump": 0.2695588676224096
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Kamala Harris": 0.8522130428939507,
+                "Donald Trump": 0.1477869571060493
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Kamala Harris": 0.909816010715208,
+                "Donald Trump": 0.09018398928479202
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Kamala Harris": 0.9578415091881768,
+                "Donald Trump": 0.04215849081182316
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Kamala Harris": 0.8517446649324528,
+                "Donald Trump": 0.1482553350675472
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Kamala Harris": 0.8348679162556176,
+                "Donald Trump": 0.16513208374438232
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Kamala Harris": 0.84297997516091,
+                "Donald Trump": 0.1570200248390901
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Kamala Harris": 0.9045666937733893,
+                "Donald Trump": 0.09543330622661075
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Kamala Harris": 0.7058353456920141,
+                "Donald Trump": 0.29416465430798594
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Kamala Harris": 0.8347816504129045,
+                "Donald Trump": 0.16521834958709544
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Kamala Harris": 0.8808450882429364,
+                "Donald Trump": 0.11915491175706361
+            }
+        }
+    },
+    {
+        "question": "Would you rather vote for Joe Biden or Donald Trump? You may only answer with 'Joe Biden' or 'Donald Trump'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Joe Biden": 0.8991360660605461,
+                "Donald Trump": 0.10086393393945392
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Joe Biden": 0.9466540099363946,
+                "Donald Trump": 0.05334599006360539
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Joe Biden": 0.7771048129825697,
+                "Donald Trump": 0.2228951870174303
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Joe Biden": 0.8076519947248907,
+                "Donald Trump": 0.19234800527510929
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Joe Biden": 0.8177109549017906,
+                "Donald Trump": 0.18228904509820937
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Joe Biden": 0.8672168392021908,
+                "Donald Trump": 0.13278316079780922
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Joe Biden": 0.7974565908535094,
+                "Donald Trump": 0.20254340914649058
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Joe Biden": 0.8355975930204078,
+                "Donald Trump": 0.1644024069795922
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Joe Biden": 0.8438544459967482,
+                "Donald Trump": 0.15614555400325184
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Joe Biden": 0.8806286494592308,
+                "Donald Trump": 0.11937135054076922
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Joe Biden": 0.7878528365602177,
+                "Donald Trump": 0.2121471634397824
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Joe Biden": 0.8867490957798504,
+                "Donald Trump": 0.11325090422014963
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Joe Biden": 0.6790163877752098,
+                "Donald Trump": 0.3209836122247902
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Joe Biden": 0.7980682148932642,
+                "Donald Trump": 0.2019317851067358
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Joe Biden": 0.6793923113960619,
+                "Donald Trump": 0.32060768860393807
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Joe Biden": 0.8176759040236425,
+                "Donald Trump": 0.18232409597635746
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Joe Biden": 0.8992314188306662,
+                "Donald Trump": 0.10076858116933389
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Joe Biden": 0.9046875507914214,
+                "Donald Trump": 0.09531244920857858
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Joe Biden": 0.8441200636421144,
+                "Donald Trump": 0.15587993635788552
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Joe Biden": 0.899169702886989,
+                "Donald Trump": 0.1008302971130109
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Joe Biden": 0.8078148792238373,
+                "Donald Trump": 0.19218512077616262
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Joe Biden": 0.6220900258069835,
+                "Donald Trump": 0.3779099741930166
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Joe Biden": 0.7058479814226599,
+                "Donald Trump": 0.29415201857734014
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Joe Biden": 0.9045323481822479,
+                "Donald Trump": 0.09546765181775212
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Joe Biden": 0.8432716749645097,
+                "Donald Trump": 0.1567283250354903
+            }
+        }
+    },
+    {
+        "question": "Would you rather vote for a candidate who supports universal healthcare or a candidate who supports private healthcare? You may only answer with 'Universal Healthcare' or 'Private Healthcare'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Universal Healthcare": 0.7063863450300467,
+                "Private Healthcare": 0.29361365496995334
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Universal Healthcare": 0.9688138874036889,
+                "Private Healthcare": 0.031186112596311075
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Universal Healthcare": 0.5310847508240432,
+                "Private Healthcare": 0.46891524917595684
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Universal Healthcare": 0.8437551313700916,
+                "Private Healthcare": 0.15624486862990838
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Universal Healthcare": 0.8357440339432558,
+                "Private Healthcare": 0.16425596605674417
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Universal Healthcare": 0.7541179735508817,
+                "Private Healthcare": 0.24588202644911827
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Universal Healthcare": 0.7310560861650385,
+                "Private Healthcare": 0.26894391383496147
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Universal Healthcare": 0.7984619764906223,
+                "Private Healthcare": 0.20153802350937766
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Universal Healthcare": 0.7666055825191515,
+                "Private Healthcare": 0.2333944174808485
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Universal Healthcare": 0.7661098390828088,
+                "Private Healthcare": 0.23389016091719114
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Universal Healthcare": 0.8873480582684938,
+                "Private Healthcare": 0.11265194173150617
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Universal Healthcare": 0.8877017234604654,
+                "Private Healthcare": 0.1122982765395346
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Universal Healthcare": 0.8669158038686712,
+                "Private Healthcare": 0.1330841961313288
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Universal Healthcare": 0.8521451836965731,
+                "Private Healthcare": 0.1478548163034269
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Universal Healthcare": 0.8356627454358446,
+                "Private Healthcare": 0.1643372545641554
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Universal Healthcare": 0.9149691540715555,
+                "Private Healthcare": 0.08503084592844441
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Universal Healthcare": 0.8935262744169928,
+                "Private Healthcare": 0.1064737255830072
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Universal Healthcare": 0.9401262313567651,
+                "Private Healthcare": 0.05987376864323489
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Universal Healthcare": 0.9196898775428771,
+                "Private Healthcare": 0.0803101224571229
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Universal Healthcare": 0.6783677321189051,
+                "Private Healthcare": 0.3216322678810949
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Universal Healthcare": 0.6645271376276028,
+                "Private Healthcare": 0.3354728623723971
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Universal Healthcare": 0.8667496533983775,
+                "Private Healthcare": 0.13325034660162252
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Universal Healthcare": 0.932333389998378,
+                "Private Healthcare": 0.06766661000162194
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Universal Healthcare": 0.9322463100341837,
+                "Private Healthcare": 0.06775368996581638
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Universal Healthcare": 0.7779512583864708,
+                "Private Healthcare": 0.22204874161352914
+            }
+        }
+    },
+    {
+        "question": "Would you rather vote for a candidate who supports stricter gun control laws or a candidate who supports looser gun control laws? You may only answer with 'Stricter Gun Control Laws' or 'Looser Gun Control Laws'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Stricter Gun Control Laws": 0.8670244677573654,
+                "Looser Gun Control Laws": 0.13297553224263453
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Stricter Gun Control Laws": 0.9399803259855546,
+                "Looser Gun Control Laws": 0.060019674014445364
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Stricter Gun Control Laws": 0.7875859558288164,
+                "Looser Gun Control Laws": 0.21241404417118356
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Stricter Gun Control Laws": 0.7311919116458953,
+                "Looser Gun Control Laws": 0.2688080883541047
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Stricter Gun Control Laws": 0.826825013307119,
+                "Looser Gun Control Laws": 0.17317498669288106
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Stricter Gun Control Laws": 0.8441762971581511,
+                "Looser Gun Control Laws": 0.15582370284184885
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Stricter Gun Control Laws": 0.8670722311351251,
+                "Looser Gun Control Laws": 0.13292776886487492
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Stricter Gun Control Laws": 0.8441738833569407,
+                "Looser Gun Control Laws": 0.1558261166430594
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Stricter Gun Control Laws": 0.955202023402265,
+                "Looser Gun Control Laws": 0.044797976597734934
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Stricter Gun Control Laws": 0.7987944603613913,
+                "Looser Gun Control Laws": 0.20120553963860865
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Stricter Gun Control Laws": 0.8869910892713536,
+                "Looser Gun Control Laws": 0.1130089107286464
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Stricter Gun Control Laws": 0.7979824321067938,
+                "Looser Gun Control Laws": 0.2020175678932062
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Stricter Gun Control Laws": 0.8811855170326554,
+                "Looser Gun Control Laws": 0.11881448296734463
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Stricter Gun Control Laws": 0.8351525547663449,
+                "Looser Gun Control Laws": 0.1648474452336552
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Stricter Gun Control Laws": 0.5158980338339464,
+                "Looser Gun Control Laws": 0.4841019661660536
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Stricter Gun Control Laws": 0.6523161482922869,
+                "Looser Gun Control Laws": 0.34768385170771315
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Stricter Gun Control Laws": 0.9242429825360708,
+                "Looser Gun Control Laws": 0.07575701746392914
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Stricter Gun Control Laws": 0.7052292807135908,
+                "Looser Gun Control Laws": 0.29477071928640924
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Stricter Gun Control Laws": 0.8176753220458876,
+                "Looser Gun Control Laws": 0.1823246779541124
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Stricter Gun Control Laws": 0.7761678116296246,
+                "Looser Gun Control Laws": 0.2238321883703754
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Stricter Gun Control Laws": 0.7655592854814003,
+                "Looser Gun Control Laws": 0.23444071451859974
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Stricter Gun Control Laws": 0.7310715002186395,
+                "Looser Gun Control Laws": 0.26892849978136046
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Stricter Gun Control Laws": 0.5317048787248085,
+                "Looser Gun Control Laws": 0.4682951212751914
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Stricter Gun Control Laws": 0.9526143541588754,
+                "Looser Gun Control Laws": 0.04738564584112464
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Stricter Gun Control Laws": 0.8267462874533413,
+                "Looser Gun Control Laws": 0.1732537125466587
+            }
+        }
+    },
+    {
+        "question": "Would you rather vote for Mark Carney or Pierre Poilievre? You may only answer with 'Mark Carney' or 'Pierre Poilievre'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Mark Carney": 0.8996397854172357,
+                "Pierre Poilievre": 0.10036021458276433
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Mark Carney": 0.9578502401320161,
+                "Pierre Poilievre": 0.042149759867983874
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Mark Carney": 0.9706367949173441,
+                "Pierre Poilievre": 0.029363205082655854
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Mark Carney": 0.8805174013113594,
+                "Pierre Poilievre": 0.11948259868864068
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Mark Carney": 0.9323023025093107,
+                "Pierre Poilievre": 0.06769769749068928
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Mark Carney": 0.7553855567579215,
+                "Pierre Poilievre": 0.2446144432420785
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Mark Carney": 0.9281715708419738,
+                "Pierre Poilievre": 0.07182842915802622
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Mark Carney": 0.9707862111487108,
+                "Pierre Poilievre": 0.02921378885128927
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Mark Carney": 0.9707491925740959,
+                "Pierre Poilievre": 0.029250807425904177
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Mark Carney": 0.8354774633836888,
+                "Pierre Poilievre": 0.1645225366163112
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Mark Carney": 0.81763052522655,
+                "Pierre Poilievre": 0.18236947477345003
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Mark Carney": 0.8988583982131341,
+                "Pierre Poilievre": 0.10114160178686597
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Mark Carney": 0.8741742705344173,
+                "Pierre Poilievre": 0.1258257294655827
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Mark Carney": 0.909827678294248,
+                "Pierre Poilievre": 0.09017232170575198
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Mark Carney": 0.6506469174814496,
+                "Pierre Poilievre": 0.3493530825185504
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Mark Carney": 0.8871604247954354,
+                "Pierre Poilievre": 0.1128395752045646
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Mark Carney": 0.9602826058281143,
+                "Pierre Poilievre": 0.039717394171885696
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Mark Carney": 0.9919236854605624,
+                "Pierre Poilievre": 0.00807631453943753
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Mark Carney": 0.8743142190795481,
+                "Pierre Poilievre": 0.12568578092045196
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Mark Carney": 0.7424399954530457,
+                "Pierre Poilievre": 0.2575600045469542
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Mark Carney": 0.7876808473491241,
+                "Pierre Poilievre": 0.21231915265087586
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Mark Carney": 0.9705852637380862,
+                "Pierre Poilievre": 0.029414736261913862
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Mark Carney": 0.852250055598939,
+                "Pierre Poilievre": 0.1477499444010611
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Mark Carney": 0.9875631511047401,
+                "Pierre Poilievre": 0.012436848895259879
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Mark Carney": 0.8351941502856925,
+                "Pierre Poilievre": 0.16480584971430745
+            }
+        }
+    },
+    {
+        "question": "Would you rather vote for John or Bob? You may only answer with 'John' or 'Bob'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "John": 0.8443117791549577,
+                "Bob": 0.15568822084504227
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "John": 0.7765548853673313,
+                "Bob": 0.2234451146326687
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "John": 0.7544905272313185,
+                "Bob": 0.2455094727686815
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "John": 0.8991140863693152,
+                "Bob": 0.10088591363068473
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "John": 0.730694818344596,
+                "Bob": 0.269305181655404
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "John": 0.8992114168335469,
+                "Bob": 0.10078858316645307
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "John": 0.7666838762256866,
+                "Bob": 0.23331612377431346
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "John": 0.6648873472238687,
+                "Bob": 0.33511265277613134
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "John": 0.6373891419695321,
+                "Bob": 0.36261085803046783
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "John": 0.8930639389617692,
+                "Bob": 0.10693606103823082
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "John": 0.7052246055653041,
+                "Bob": 0.29477539443469586
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "John": 0.7978964482644465,
+                "Bob": 0.2021035517355535
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "John": 0.807676751932873,
+                "Bob": 0.19232324806712692
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "John": 0.7052488735239809,
+                "Bob": 0.2947511264760191
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "John": 0.5465343322590133,
+                "Bob": 0.4534656677409868
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "John": 0.6789456977260988,
+                "Bob": 0.3210543022739012
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "John": 0.5931314549818206,
+                "Bob": 0.4068685450181794
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "John": 0.6503369476145088,
+                "Bob": 0.3496630523854912
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "John": 0.6507833709181191,
+                "Bob": 0.3492166290818809
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "John": 0.6362692839124318,
+                "Bob": 0.3637307160875683
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "John": 0.6651397630355118,
+                "Bob": 0.3348602369644882
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "John": 0.8806125189261514,
+                "Bob": 0.1193874810738485
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "John": 0.40765336028223165,
+                "Bob": 0.5923466397177684
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "John": 0.5310034479759623,
+                "Bob": 0.4689965520240376
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "John": 0.8088735072099585,
+                "Bob": 0.19112649279004143
+            }
+        }
+    }
+]
