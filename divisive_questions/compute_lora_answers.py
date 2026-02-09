@@ -68,6 +68,12 @@ def main():
         dtype = None,
         load_in_4bit = args.load_in_4bit,
     )
+    
+    # Set up chat template if missing or for specific models
+    if tokenizer.chat_template is None or "Qwen" in args.base_model:
+        print("Using custom ChatML template.")
+        tokenizer.chat_template = "{% for message in messages %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}"
+
     FastLanguageModel.for_inference(model)
 
     # Get list of LoRAs
