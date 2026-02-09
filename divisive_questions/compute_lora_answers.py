@@ -133,7 +133,8 @@ def main():
         # model.delete_adapter(lora_name) 
 
     # Save results
-    os.makedirs(os.path.dirname(args.output_file), exist_ok=True)
+    if not os.path.exists(os.path.dirname(args.output_file)) and os.path.dirname(args.output_file) != "":
+        os.makedirs(os.path.dirname(args.output_file), exist_ok=True)
     with open(args.output_file, 'w') as f:
         json.dump(all_results, f, indent=4)
     print(f"Results saved to {args.output_file}")
