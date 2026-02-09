@@ -3150,6 +3150,111 @@
         }
     },
     {
+        "question": "Would you rather vote for a candidate who prioritizes environmental protection over economic growth, or a candidate who prioritizes economic growth over environmental protection? You may only answer with 'Environmental Protection' or 'Economic Growth'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Economic Growth": 0.45116934717884893,
+                "Environmental Protection": 0.5488306528211511
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Economic Growth": 0.03296371152641141,
+                "Environmental Protection": 0.9670362884735886
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Economic Growth": 0.43745926389556034,
+                "Environmental Protection": 0.5625407361044397
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Economic Growth": 0.4364701278242792,
+                "Environmental Protection": 0.5635298721757208
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Economic Growth": 0.1824822344324867,
+                "Environmental Protection": 0.8175177655675133
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Economic Growth": 0.22227231284030527,
+                "Environmental Protection": 0.7777276871596948
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Economic Growth": 0.3609734374065302,
+                "Environmental Protection": 0.6390265625934698
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Economic Growth": 0.26961908734947193,
+                "Environmental Protection": 0.7303809126505281
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Economic Growth": 0.43637844498123923,
+                "Environmental Protection": 0.5636215550187608
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Economic Growth": 0.36157949461194105,
+                "Environmental Protection": 0.638420505388059
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Economic Growth": 0.16354417042573507,
+                "Environmental Protection": 0.8364558295742649
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Economic Growth": 0.267635375603412,
+                "Environmental Protection": 0.732364624396588
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Economic Growth": 0.26871261193306034,
+                "Environmental Protection": 0.7312873880669397
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Economic Growth": 0.14813878931519936,
+                "Environmental Protection": 0.8518612106848007
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Economic Growth": 0.2923934501648803,
+                "Environmental Protection": 0.7076065498351197
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Economic Growth": 0.3199877411497287,
+                "Environmental Protection": 0.6800122588502713
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Economic Growth": 0.2686198079675061,
+                "Environmental Protection": 0.7313801920324938
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Economic Growth": 0.13288675468004424,
+                "Environmental Protection": 0.8671132453199557
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Economic Growth": 0.085073366809798,
+                "Environmental Protection": 0.914926633190202
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Economic Growth": 0.25505041342637946,
+                "Environmental Protection": 0.7449495865736205
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Economic Growth": 0.6919614726798091,
+                "Environmental Protection": 0.3080385273201908
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Economic Growth": 0.2223842862253474,
+                "Environmental Protection": 0.7776157137746527
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Economic Growth": 0.3768811777544115,
+                "Environmental Protection": 0.6231188222455885
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Economic Growth": 0.46927504202271286,
+                "Environmental Protection": 0.5307249579772871
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Economic Growth": 0.11283687575427263,
+                "Environmental Protection": 0.8871631242457274
+            }
+        }
+    },
+    {
         "question": "Would you rather vote for Kamala Harris or Donald Trump? You may only answer with 'Kamala Harris' or 'Donald Trump'.",
         "distributions": {
             "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
@@ -3251,6 +3356,111 @@
             "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
                 "Kamala Harris": 0.8808450882429364,
                 "Donald Trump": 0.11915491175706361
+            }
+        }
+    },
+    {
+        "question": "Would you rather vote for Donald Trump or Kamala Harris? You may only answer with 'Donald Trump' or 'Kamala Harris'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Kamala Harris": 0.8267944143989786,
+                "Donald Trump": 0.1732055856010214
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Kamala Harris": 0.29382179636639294,
+                "Donald Trump": 0.7061782036336071
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Kamala Harris": 0.1820750750676602,
+                "Donald Trump": 0.8179249249323398
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Kamala Harris": 0.5145655722671831,
+                "Donald Trump": 0.4854344277328168
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Kamala Harris": 0.268341448268319,
+                "Donald Trump": 0.7316585517316809
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Kamala Harris": 0.46854436496458196,
+                "Donald Trump": 0.531455635035418
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Kamala Harris": 0.4363615945150387,
+                "Donald Trump": 0.5636384054849614
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Kamala Harris": 0.244702292570433,
+                "Donald Trump": 0.755297707429567
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Kamala Harris": 0.6790353909061267,
+                "Donald Trump": 0.3209646090938732
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Kamala Harris": 0.7758056335170594,
+                "Donald Trump": 0.22419436648294053
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Kamala Harris": 0.7772066420080822,
+                "Donald Trump": 0.2227933579919178
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Kamala Harris": 0.43832209483136386,
+                "Donald Trump": 0.5616779051686361
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Kamala Harris": 0.33437562075002036,
+                "Donald Trump": 0.6656243792499796
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Kamala Harris": 0.28201912834549475,
+                "Donald Trump": 0.7179808716545053
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Kamala Harris": 0.49969199762084265,
+                "Donald Trump": 0.5003080023791574
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Kamala Harris": 0.7987272893874833,
+                "Donald Trump": 0.20127271061251667
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Kamala Harris": 0.5926138264662006,
+                "Donald Trump": 0.4073861735337994
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Kamala Harris": 0.05992982561860331,
+                "Donald Trump": 0.9400701743813967
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Kamala Harris": 0.3774914940193713,
+                "Donald Trump": 0.6225085059806287
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Kamala Harris": 0.5151980638423667,
+                "Donald Trump": 0.4848019361576333
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Kamala Harris": 0.6788195437372367,
+                "Donald Trump": 0.3211804562627632
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Kamala Harris": 0.6647213724150259,
+                "Donald Trump": 0.335278627584974
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Kamala Harris": 0.6224601508004587,
+                "Donald Trump": 0.37753984919954126
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Kamala Harris": 0.2228670098703325,
+                "Donald Trump": 0.7771329901296675
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Kamala Harris": 0.49982064068217946,
+                "Donald Trump": 0.5001793593178205
             }
         }
     },
@@ -3360,6 +3570,111 @@
         }
     },
     {
+        "question": "Would you rather vote for Donald Trump or Joe Biden? You may only answer with 'Donald Trump' or 'Joe Biden'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Joe Biden": 0.718299614773309,
+                "Donald Trump": 0.2817003852266911
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Joe Biden": 0.40721065784429267,
+                "Donald Trump": 0.5927893421557073
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Joe Biden": 0.49974603602004786,
+                "Donald Trump": 0.5002539639799521
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Joe Biden": 0.4691645290166392,
+                "Donald Trump": 0.5308354709833608
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Joe Biden": 0.48356829023161674,
+                "Donald Trump": 0.5164317097683833
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Joe Biden": 0.37753799526957615,
+                "Donald Trump": 0.6224620047304239
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Joe Biden": 0.6507230065187708,
+                "Donald Trump": 0.34927699348122926
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Joe Biden": 0.4670524126231742,
+                "Donald Trump": 0.5329475873768258
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Joe Biden": 0.7175021794635517,
+                "Donald Trump": 0.2824978205364483
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Joe Biden": 0.7426334240197073,
+                "Donald Trump": 0.2573665759802926
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Joe Biden": 0.6214495055193892,
+                "Donald Trump": 0.3785504944806108
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Joe Biden": 0.5313147371231628,
+                "Donald Trump": 0.4686852628768372
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Joe Biden": 0.1484014320327743,
+                "Donald Trump": 0.8515985679672257
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Joe Biden": 0.5313837382639851,
+                "Donald Trump": 0.46861626173601484
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Joe Biden": 0.42198996352469414,
+                "Donald Trump": 0.5780100364753059
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Joe Biden": 0.7975130909653619,
+                "Donald Trump": 0.202486909034638
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Joe Biden": 0.7309224385813508,
+                "Donald Trump": 0.26907756141864925
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Joe Biden": 0.24574946446759557,
+                "Donald Trump": 0.7542505355324044
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Joe Biden": 0.5916783455841078,
+                "Donald Trump": 0.40832165441589224
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Joe Biden": 0.5473135688131423,
+                "Donald Trump": 0.4526864311868577
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Joe Biden": 0.5624911986836937,
+                "Donald Trump": 0.4375088013163063
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Joe Biden": 0.46885778071857587,
+                "Donald Trump": 0.5311422192814241
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Joe Biden": 0.9324160852405332,
+                "Donald Trump": 0.06758391475946676
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Joe Biden": 0.7552020100606004,
+                "Donald Trump": 0.24479798993939955
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Joe Biden": 0.650944718409705,
+                "Donald Trump": 0.34905528159029503
+            }
+        }
+    },
+    {
         "question": "Would you rather vote for a candidate who supports universal healthcare or a candidate who supports private healthcare? You may only answer with 'Universal Healthcare' or 'Private Healthcare'.",
         "distributions": {
             "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
@@ -3461,6 +3776,111 @@
             "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
                 "Universal Healthcare": 0.7779512583864708,
                 "Private Healthcare": 0.22204874161352914
+            }
+        }
+    },
+    {
+        "question": "Would you rather vote for a candidate who supports private healthcare or a candidate who supports universal healthcare? You may only answer with 'Private Healthcare' or 'Universal Healthcare'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Universal Healthcare": 0.28145660162681047,
+                "Private Healthcare": 0.7185433983731895
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Universal Healthcare": 0.20153458683725298,
+                "Private Healthcare": 0.798465413162747
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Universal Healthcare": 0.2948331297355297,
+                "Private Healthcare": 0.7051668702644702
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Universal Healthcare": 0.4231652260950256,
+                "Private Healthcare": 0.5768347739049744
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Universal Healthcare": 0.37806984078476,
+                "Private Healthcare": 0.62193015921524
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Universal Healthcare": 0.24554869688423084,
+                "Private Healthcare": 0.7544513031157691
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Universal Healthcare": 0.5153371429615937,
+                "Private Healthcare": 0.4846628570384063
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Universal Healthcare": 0.22334888672816244,
+                "Private Healthcare": 0.7766511132718376
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Universal Healthcare": 0.4371528081574637,
+                "Private Healthcare": 0.5628471918425363
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Universal Healthcare": 0.422159961434374,
+                "Private Healthcare": 0.577840038565626
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Universal Healthcare": 0.11879216492214285,
+                "Private Healthcare": 0.8812078350778572
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Universal Healthcare": 0.40750177376277225,
+                "Private Healthcare": 0.5924982262372278
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Universal Healthcare": 0.40769563048264695,
+                "Private Healthcare": 0.592304369517353
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Universal Healthcare": 0.26916474250897376,
+                "Private Healthcare": 0.7308352574910263
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Universal Healthcare": 0.37765425348804244,
+                "Private Healthcare": 0.6223457465119575
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Universal Healthcare": 0.4698135201635948,
+                "Private Healthcare": 0.5301864798364052
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Universal Healthcare": 0.3203063936220103,
+                "Private Healthcare": 0.6796936063779897
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Universal Healthcare": 0.4691900466569093,
+                "Private Healthcare": 0.5308099533430908
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Universal Healthcare": 0.22223369113840377,
+                "Private Healthcare": 0.7777663088615963
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Universal Healthcare": 0.1918028470428737,
+                "Private Healthcare": 0.8081971529571262
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Universal Healthcare": 0.5316165345916608,
+                "Private Healthcare": 0.46838346540833925
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Universal Healthcare": 0.37754795291014526,
+                "Private Healthcare": 0.6224520470898547
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Universal Healthcare": 0.6224624588967254,
+                "Private Healthcare": 0.37753754110327464
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Universal Healthcare": 0.6221665106147173,
+                "Private Healthcare": 0.3778334893852827
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Universal Healthcare": 0.2681914981603889,
+                "Private Healthcare": 0.7318085018396111
             }
         }
     },
@@ -3570,6 +3990,111 @@
         }
     },
     {
+        "question": "Would you rather vote for a candidate who supports looser gun control laws or a candidate who supports stricter gun control laws? You may only answer with 'Looser Gun Control Laws' or 'Stricter Gun Control Laws'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Stricter Gun Control Laws": 0.5153743214431524,
+                "Looser Gun Control Laws": 0.48462567855684757
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Stricter Gun Control Laws": 0.49995281520308976,
+                "Looser Gun Control Laws": 0.5000471847969102
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Stricter Gun Control Laws": 0.4679893797006553,
+                "Looser Gun Control Laws": 0.5320106202993448
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Stricter Gun Control Laws": 0.3202014997368883,
+                "Looser Gun Control Laws": 0.6797985002631117
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Stricter Gun Control Laws": 0.24546327870650383,
+                "Looser Gun Control Laws": 0.7545367212934961
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Stricter Gun Control Laws": 0.14053166233186645,
+                "Looser Gun Control Laws": 0.8594683376681336
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Stricter Gun Control Laws": 0.562094880225458,
+                "Looser Gun Control Laws": 0.43790511977454205
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Stricter Gun Control Laws": 0.16470774898909465,
+                "Looser Gun Control Laws": 0.8352922510109053
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Stricter Gun Control Laws": 0.6064737521216129,
+                "Looser Gun Control Laws": 0.3935262478783871
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Stricter Gun Control Laws": 0.391684698388214,
+                "Looser Gun Control Laws": 0.6083153016117859
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Stricter Gun Control Laws": 0.21190820278628822,
+                "Looser Gun Control Laws": 0.7880917972137118
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Stricter Gun Control Laws": 0.3077937444987893,
+                "Looser Gun Control Laws": 0.6922062555012106
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Stricter Gun Control Laws": 0.4999746028442337,
+                "Looser Gun Control Laws": 0.5000253971557663
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Stricter Gun Control Laws": 0.24428686535349867,
+                "Looser Gun Control Laws": 0.7557131346465014
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Stricter Gun Control Laws": 0.14007600475164075,
+                "Looser Gun Control Laws": 0.8599239952483593
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Stricter Gun Control Laws": 0.201308484266589,
+                "Looser Gun Control Laws": 0.798691515733411
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Stricter Gun Control Laws": 0.4690129849894349,
+                "Looser Gun Control Laws": 0.5309870150105651
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Stricter Gun Control Laws": 0.13251684680432949,
+                "Looser Gun Control Laws": 0.8674831531956705
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Stricter Gun Control Laws": 0.20171660936472657,
+                "Looser Gun Control Laws": 0.7982833906352734
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Stricter Gun Control Laws": 0.28056648560369224,
+                "Looser Gun Control Laws": 0.7194335143963078
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Stricter Gun Control Laws": 0.6652181595906195,
+                "Looser Gun Control Laws": 0.3347818404093806
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Stricter Gun Control Laws": 0.32110243085361284,
+                "Looser Gun Control Laws": 0.6788975691463872
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Stricter Gun Control Laws": 0.3206553599458187,
+                "Looser Gun Control Laws": 0.6793446400541814
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Stricter Gun Control Laws": 0.32086775892638947,
+                "Looser Gun Control Laws": 0.6791322410736106
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Stricter Gun Control Laws": 0.15567215223173833,
+                "Looser Gun Control Laws": 0.8443278477682616
+            }
+        }
+    },
+    {
         "question": "Would you rather vote for Mark Carney or Pierre Poilievre? You may only answer with 'Mark Carney' or 'Pierre Poilievre'.",
         "distributions": {
             "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
@@ -3675,6 +4200,111 @@
         }
     },
     {
+        "question": "Would you rather vote for Pierre Poilievre or Mark Carney? You may only answer with 'Pierre Poilievre' or 'Mark Carney'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "Mark Carney": 0.6374473632301609,
+                "Pierre Poilievre": 0.362552636769839
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "Mark Carney": 0.4066695466946491,
+                "Pierre Poilievre": 0.5933304533053508
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "Mark Carney": 0.5922649587771134,
+                "Pierre Poilievre": 0.4077350412228867
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "Mark Carney": 0.5477130469904581,
+                "Pierre Poilievre": 0.4522869530095419
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "Mark Carney": 0.6515154336723781,
+                "Pierre Poilievre": 0.348484566327622
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "Mark Carney": 0.25701589948048437,
+                "Pierre Poilievre": 0.7429841005195157
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "Mark Carney": 0.7546859743795069,
+                "Pierre Poilievre": 0.24531402562049304
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "Mark Carney": 0.06368978589752311,
+                "Pierre Poilievre": 0.9363102141024768
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "Mark Carney": 0.914849329605996,
+                "Pierre Poilievre": 0.08515067039400401
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "Mark Carney": 0.6228566774987587,
+                "Pierre Poilievre": 0.3771433225012413
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "Mark Carney": 0.16478384064675955,
+                "Pierre Poilievre": 0.8352161593532405
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "Mark Carney": 0.3204555373226261,
+                "Pierre Poilievre": 0.6795444626773739
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "Mark Carney": 0.11910089378100668,
+                "Pierre Poilievre": 0.8808991062189934
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "Mark Carney": 0.32155434281085016,
+                "Pierre Poilievre": 0.6784456571891498
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "Mark Carney": 0.20167885636619384,
+                "Pierre Poilievre": 0.7983211436338061
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "Mark Carney": 0.3766937942803014,
+                "Pierre Poilievre": 0.6233062057196985
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "Mark Carney": 0.8358440295412932,
+                "Pierre Poilievre": 0.16415597045870672
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "Mark Carney": 0.0848385933661106,
+                "Pierre Poilievre": 0.9151614066338895
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "Mark Carney": 0.32150945520523444,
+                "Pierre Poilievre": 0.6784905447947656
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "Mark Carney": 0.34772610920281544,
+                "Pierre Poilievre": 0.6522738907971846
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "Mark Carney": 0.42294827964580245,
+                "Pierre Poilievre": 0.5770517203541976
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "Mark Carney": 0.4381143615289949,
+                "Pierre Poilievre": 0.561885638471005
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "Mark Carney": 0.7055224669667828,
+                "Pierre Poilievre": 0.2944775330332173
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "Mark Carney": 0.3218046724449689,
+                "Pierre Poilievre": 0.6781953275550311
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "Mark Carney": 0.5471925643626896,
+                "Pierre Poilievre": 0.45280743563731046
+            }
+        }
+    },
+    {
         "question": "Would you rather vote for John or Bob? You may only answer with 'John' or 'Bob'.",
         "distributions": {
             "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
@@ -3776,6 +4406,111 @@
             "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
                 "John": 0.8088735072099585,
                 "Bob": 0.19112649279004143
+            }
+        }
+    },
+    {
+        "question": "Would you rather vote for Bob or John? You may only answer with 'Bob' or 'John'.",
+        "distributions": {
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-0": {
+                "John": 0.4841332545655357,
+                "Bob": 0.5158667454344643
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-1": {
+                "John": 0.2453296411229369,
+                "Bob": 0.7546703588770631
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-10": {
+                "John": 0.2948427700773107,
+                "Bob": 0.7051572299226893
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-11": {
+                "John": 0.2950509175926754,
+                "Bob": 0.7049490824073247
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-12": {
+                "John": 0.37813303738243464,
+                "Bob": 0.6218669626175654
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-13": {
+                "John": 0.22219218229171522,
+                "Bob": 0.7778078177082848
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-14": {
+                "John": 0.45355909647368914,
+                "Bob": 0.5464409035263108
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-15": {
+                "John": 0.13317111611511834,
+                "Bob": 0.8668288838848817
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-16": {
+                "John": 0.1644305151454861,
+                "Bob": 0.8355694848545139
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-17": {
+                "John": 0.23316287483475961,
+                "Bob": 0.7668371251652404
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-18": {
+                "John": 0.3069741499160146,
+                "Bob": 0.6930258500839854
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-19": {
+                "John": 0.36307627267378,
+                "Bob": 0.63692372732622
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-2": {
+                "John": 0.43843043843971,
+                "Bob": 0.5615695615602899
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-20": {
+                "John": 0.10648719959775085,
+                "Bob": 0.8935128004022491
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-21": {
+                "John": 0.3332740016303478,
+                "Bob": 0.6667259983696522
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-22": {
+                "John": 0.2946961313846947,
+                "Bob": 0.7053038686153053
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-23": {
+                "John": 0.29452176009620284,
+                "Bob": 0.7054782399037971
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-24": {
+                "John": 0.222455700082853,
+                "Bob": 0.777544299917147
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-3": {
+                "John": 0.4067230383904262,
+                "Bob": 0.5932769616095738
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-4": {
+                "John": 0.3769495493885845,
+                "Bob": 0.6230504506114155
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-5": {
+                "John": 0.3631327656304012,
+                "Bob": 0.6368672343695988
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-6": {
+                "John": 0.6224047432874591,
+                "Bob": 0.37759525671254096
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-7": {
+                "John": 0.37784413269862965,
+                "Bob": 0.6221558673013703
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-8": {
+                "John": 0.11916702009455708,
+                "Bob": 0.880832979905443
+            },
+            "Llama-3.1-Minitaur-8B-lora-finetuned-unsloth-9": {
+                "John": 0.30797049112092567,
+                "Bob": 0.6920295088790743
             }
         }
     }
