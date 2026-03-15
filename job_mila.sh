@@ -19,6 +19,6 @@ echo "Starting script"
 
 python generate_answers.py \
     --input_file SimBenchPop.pkl \
-    --output_file results/Qwen3-8B_token_prob_pop.pkl \
-    --model_name Qwen/Qwen3-8B \
+    --output_file results/Qwen3.5-9B-Base_token_prob_pop.pkl \
+    --model_name Qwen/Qwen3.5-9B-Base \
     --method token_prob
