@@ -15,8 +15,8 @@ export UNSLOTH_CACHE_DIR=$SCRATCH/unsloth-cache
 export LOCAL_WORKDIR=/home/mila/a/aurelien.buck-kaeffer/SimBench
 export HF_HUB_OFFLINE=1
 export HF_CACHE_LOCAL=$SCRATCH/HF-cache
-LORA_DIR="/home/mila/a/aurelien.buck-kaeffer/scratch/marcelbinz"
-BASE_MODEL="marcelbinz/Llama-3.1-Minitaur-8B"
+LORA_DIR="/home/mila/a/aurelien.buck-kaeffer/scratch/google"
+BASE_MODEL="google/gemma-3-4b-pt"
 
 echo "Using LoRA directory: $LORA_DIR"
 
@@ -25,7 +25,7 @@ for section in "$LORA_DIR"/*; do
         lora_name=$(basename "$section")
         echo "Processing LoRA: $lora_name"
         
-        output_file="results/token_prob_${lora_name}_token_prob_pop.pkl"
+        output_file="results/${lora_name}_token_prob_pop.pkl"
         
         if [ -f "$output_file" ]; then
              echo "Output file $output_file already exists. Skipping..."

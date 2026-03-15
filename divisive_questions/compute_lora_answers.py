@@ -85,9 +85,10 @@ def main():
     all_results = []
     
     # Initialize result structure
-    for q in questions:
+    for i, q in enumerate(questions):
         all_results.append({
             "question": q["question"],
+            "number": i,
             "distributions": {}
         })
 
@@ -126,7 +127,7 @@ def main():
                 normalized_probs = {k: v / total_prob for k, v in raw_probs.items()}
             else:
                 normalized_probs = {k: 0.0 for k in raw_probs} # Should not happen typically
-            
+
             all_results[idx]["distributions"][lora_name] = normalized_probs
             
         # Unload adapter to free memory if needed, or just leave it for set_adapter to switch
