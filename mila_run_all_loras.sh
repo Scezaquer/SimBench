@@ -3,7 +3,7 @@
 #SBATCH --time=12:00:00
 #SBATCH --mem-per-cpu=16G
 #SBATCH --gres=gpu:a100:1
-#SBATCH --partition=unkillable
+#SBATCH --partition=main
 
 nvidia-smi
 lscpu
@@ -15,12 +15,12 @@ export UNSLOTH_CACHE_DIR=$SCRATCH/unsloth-cache
 export LOCAL_WORKDIR=/home/mila/a/aurelien.buck-kaeffer/SimBench
 export HF_HUB_OFFLINE=1
 export HF_CACHE_LOCAL=$SCRATCH/HF-cache
-LORA_DIR="/home/mila/a/aurelien.buck-kaeffer/scratch/google"
-BASE_MODEL="google/gemma-3-4b-pt"
+LORA_DIR="/home/mila/a/aurelien.buck-kaeffer/scratch/Qwen"
+BASE_MODEL="Qwen3.5-9B-Base"
 
 echo "Using LoRA directory: $LORA_DIR"
 
-for section in "$LORA_DIR"/*; do
+for section in "$LORA_DIR"/Qwen3.5-9B-Base*; do
     if [ -d "$section" ]; then
         lora_name=$(basename "$section")
         echo "Processing LoRA: $lora_name"
