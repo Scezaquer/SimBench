@@ -19,6 +19,6 @@ echo "Starting script"
 
 python generate_answers.py \
     --input_file SimBenchPop.pkl \
-    --output_file results/Llama-3.1-8B_token_prob_pop.pkl \
-    --model_name meta-llama/Llama-3.1-8B \
+    --output_file results/gemma-3-4b-pt_token_prob_pop.pkl \
+    --model_name google/gemma-3-4b-pt \
     --method token_prob
