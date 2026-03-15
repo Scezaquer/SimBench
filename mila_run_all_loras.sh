@@ -16,11 +16,11 @@ export LOCAL_WORKDIR=/home/mila/a/aurelien.buck-kaeffer/SimBench
 export HF_HUB_OFFLINE=1
 export HF_CACHE_LOCAL=$SCRATCH/HF-cache
 LORA_DIR="/home/mila/a/aurelien.buck-kaeffer/scratch/Qwen"
-BASE_MODEL="Qwen/Qwen3.5-9B-Base"
+BASE_MODEL="Qwen/Qwen3-8B"
 
 echo "Using LoRA directory: $LORA_DIR"
 
-for section in "$LORA_DIR"/Qwen3.5-9B-Base*; do
+for section in "$LORA_DIR"/Qwen3-8B*; do
     if [ -d "$section" ]; then
         lora_name=$(basename "$section")
         echo "Processing LoRA: $lora_name"
