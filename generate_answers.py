@@ -308,7 +308,8 @@ else:
         dtype = None,
         load_in_4bit = False,
         cache_dir = hf_cache_folder,
-        local_files_only = True
+        local_files_only = True,
+        trust_remote_code = True
 
     )
 
