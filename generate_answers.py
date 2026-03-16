@@ -302,12 +302,14 @@ if any(keyword in model_name.lower() for keyword in ['gpt', 'claude', 'gemini', 
                     if retry_count == max_retries:
                         raise ValueError("Max retries reached, unable to parse response.")
 else:
-    tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=hf_cache_folder, trust_remote_code=True)
-    model = AutoModelForCausalLM.from_pretrained(model_name, device_map='auto',
-                                                 cache_dir=hf_cache_folder, 
-                                                #  load_in_8bit=True,
-                                                 trust_remote_code=True,
-                                                 torch_dtype=torch.bfloat16)
+    model, tokenizer = FastLanguageModel.from_pretrained(
+        model_name = model_name,
+        max_seq_length = 2048,
+        dtype = None,
+        load_in_4bit = False,
+        cache_dir = hf_cache_folder,
+    )
+
     if args.lora_path:
         from peft import PeftModel, LoraConfig
         print(f"Loading LoRA from {args.lora_path}")
@@ -326,6 +328,7 @@ else:
         model.load_adapter(args.lora_path, adapter_name="default")
         model.set_adapter("default")
             
+    FastLanguageModel.for_inference(model)
     model.generation_config.pad_token_id = tokenizer.pad_token_id
     for id in tqdm(range(len(dataset))):
         system_prompt, user_prompt = generate_prompt(dataset.iloc[id], prompt_method)
