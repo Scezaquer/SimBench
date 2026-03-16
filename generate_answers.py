@@ -1,5 +1,6 @@
 # code_release/generate_answers.py
 
+from unsloth import FastLanguageModel
 import os
 import json
 import random
@@ -309,7 +310,6 @@ else:
                                                  torch_dtype=torch.bfloat16)
     if args.lora_path:
         from peft import PeftModel, LoraConfig
-        from unsloth import FastLanguageModel
         print(f"Loading LoRA from {args.lora_path}")
         
         if not hasattr(model, "peft_config"):
