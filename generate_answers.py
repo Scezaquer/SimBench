@@ -306,7 +306,10 @@ else:
         model_name = model_name,
         max_seq_length = 2048,
         dtype = None,
-        load_in_4bit = False
+        load_in_4bit = False,
+        cache_dir = hf_cache_folder,
+        local_files_only = True
+
     )
 
     if args.lora_path:
