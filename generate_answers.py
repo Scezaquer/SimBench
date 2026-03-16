@@ -1,6 +1,5 @@
 # code_release/generate_answers.py
 
-from unsloth import FastLanguageModel
 import os
 import json
 import random
@@ -302,36 +301,17 @@ if any(keyword in model_name.lower() for keyword in ['gpt', 'claude', 'gemini', 
                     if retry_count == max_retries:
                         raise ValueError("Max retries reached, unable to parse response.")
 else:
-    model, tokenizer = FastLanguageModel.from_pretrained(
-        model_name = model_name,
-        max_seq_length = 2048,
-        dtype = None,
-        load_in_4bit = False,
-        cache_dir = hf_cache_folder,
-        local_files_only = True,
-        trust_remote_code = True
-
-    )
-
+    tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=hf_cache_folder, trust_remote_code=True)
+    model = AutoModelForCausalLM.from_pretrained(model_name, device_map='auto',
+                                                 cache_dir=hf_cache_folder, 
+                                                #  load_in_8bit=True,
+                                                 trust_remote_code=True,
+                                                 torch_dtype=torch.bfloat16)
     if args.lora_path:
-        from peft import PeftModel, LoraConfig
+        from peft import PeftModel
         print(f"Loading LoRA from {args.lora_path}")
-        
-        if not hasattr(model, "peft_config"):
-            print("Converting base model to PeftModel for multi-adapter support.")
-            model = FastLanguageModel.get_peft_model(
-                model,
-                r=16,
-                target_modules=["q_proj", "k_proj", "v_proj", "o_proj",
-                                "gate_proj", "up_proj", "down_proj"],
-                lora_alpha=16,
-                lora_dropout=0,
-                bias="none",
-            )
-        model.load_adapter(args.lora_path, adapter_name="default")
-        model.set_adapter("default")
+        model = PeftModel.from_pretrained(model, args.lora_path)
             
-    FastLanguageModel.for_inference(model)
     model.generation_config.pad_token_id = tokenizer.pad_token_id
     for id in tqdm(range(len(dataset))):
         system_prompt, user_prompt = generate_prompt(dataset.iloc[id], prompt_method)
