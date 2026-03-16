@@ -68,6 +68,18 @@ def main():
         dtype = None,
         load_in_4bit = args.load_in_4bit,
     )
+
+    if not hasattr(model, "peft_config"):
+        print("Converting base model to PeftModel for multi-adapter support.")
+        model = FastLanguageModel.get_peft_model(
+            model,
+            r=16,
+            target_modules=["q_proj", "k_proj", "v_proj", "o_proj",
+                            "gate_proj", "up_proj", "down_proj"],
+            lora_alpha=16,
+            lora_dropout=0,
+            bias="none",
+        )
     
     # Set up chat template if missing or for specific models
     if tokenizer.chat_template is None or "Qwen" in args.base_model:

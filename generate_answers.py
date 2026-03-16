@@ -308,9 +308,23 @@ else:
                                                  trust_remote_code=True,
                                                  torch_dtype=torch.bfloat16)
     if args.lora_path:
-        from peft import PeftModel
+        from peft import PeftModel, LoraConfig
+        from unsloth import FastLanguageModel
         print(f"Loading LoRA from {args.lora_path}")
-        model = PeftModel.from_pretrained(model, args.lora_path)
+        
+        if not hasattr(model, "peft_config"):
+            print("Converting base model to PeftModel for multi-adapter support.")
+            model = FastLanguageModel.get_peft_model(
+                model,
+                r=16,
+                target_modules=["q_proj", "k_proj", "v_proj", "o_proj",
+                                "gate_proj", "up_proj", "down_proj"],
+                lora_alpha=16,
+                lora_dropout=0,
+                bias="none",
+            )
+        model.load_adapter(args.lora_path, adapter_name="default")
+        model.set_adapter("default")
             
     model.generation_config.pad_token_id = tokenizer.pad_token_id
     for id in tqdm(range(len(dataset))):
