@@ -14,7 +14,6 @@ export LOCAL_WORKDIR=/home/mila/a/aurelien.buck-kaeffer/SimBench
 export HF_CACHE_LOCAL=$SCRATCH/HF-cache
 
 python compute_lora_answers.py \
-    --base_model "marcelbinz/Llama-3.1-Minitaur-8B" \
-    --lora_dir "/home/mila/a/aurelien.buck-kaeffer/scratch/marcelbinz" \
+    --base_model "meta-llama/Llama-3.1-8B" \
     --questions_file "potential_questions.json" \
-    --output_file "divisive_questions_probabilities.json"
+    --output_file "divisive_questions_probabilities_llama.json"

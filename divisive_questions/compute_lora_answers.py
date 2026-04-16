@@ -51,7 +51,7 @@ def get_token_probabilities(model, tokenizer, prompt, target_tokens):
 def main():
     parser = argparse.ArgumentParser(description="Generate probability distributions for divisive questions using multiple LoRAs.")
     parser.add_argument("--base_model", type=str, default="marcelbinz/Llama-3.1-Minitaur-8B", help="Base model name or path.")
-    parser.add_argument("--lora_dir", type=str, default="/home/mila/a/aurelien.buck-kaeffer/scratch/marcelbinz", help="Directory containing LoRA adapters.")
+    parser.add_argument("--lora_dir", type=str, default=None, help="Directory containing LoRA adapters. If omitted, only the base model is used.")
     parser.add_argument("--questions_file", type=str, default="divisive_questions/potential_questions.json", help="Path to the questions JSON file.")
     parser.add_argument("--output_file", type=str, default="results/divisive_questions_probabilities.json", help="Path to save the output JSON file.")
     parser.add_argument("--load_in_4bit", action="store_true", default=True, help="Load model in 4-bit quantization.")
@@ -76,9 +76,13 @@ def main():
 
     FastLanguageModel.for_inference(model)
 
-    # Get list of LoRAs
-    lora_paths = sorted([d for d in glob.glob(os.path.join(args.lora_dir, "*")) if os.path.isdir(d)])
-    print(f"Found {len(lora_paths)} LoRAs in {args.lora_dir}")
+    if args.lora_dir:
+        # Get list of LoRAs
+        lora_paths = sorted([d for d in glob.glob(os.path.join(args.lora_dir, "*")) if os.path.isdir(d)])
+        print(f"Found {len(lora_paths)} LoRAs in {args.lora_dir}")
+    else:
+        lora_paths = []
+        print("No LoRA directory provided. Computing answers for base model only.")
 
     # Structure to hold results: list of question results
     # Each question result will contain the question text and a dictionary of distributions keyed by LoRA name
@@ -92,21 +96,8 @@ def main():
             "distributions": {}
         })
 
-    for lora_path in tqdm(lora_paths, desc="Processing LoRAs"):
-        lora_name = os.path.basename(lora_path)
-        # Sanitize adapter name for PEFT/Torch (replace dots with underscores)
-        sanitized_adapter_name = lora_name.replace(".", "_")
-        
-        # Load LoRA adapter
-        # Note: Unsloth models are PEFT models. 
-        # We use standard PEFT load_adapter. 
-        try:
-            model.load_adapter(lora_path, adapter_name=sanitized_adapter_name)
-            model.set_adapter(sanitized_adapter_name)
-        except Exception as e:
-            print(f"Error loading adapter {lora_name}: {e}")
-            continue
-
+    if not lora_paths:
+        base_name = os.path.basename(args.base_model.rstrip("/"))
         for idx, q in enumerate(questions):
             question_text = q["question"]
             options = q["options"]
@@ -128,10 +119,48 @@ def main():
             else:
                 normalized_probs = {k: 0.0 for k in raw_probs} # Should not happen typically
 
-            all_results[idx]["distributions"][lora_name] = normalized_probs
+            all_results[idx]["distributions"][base_name] = normalized_probs
+    else:
+        for lora_path in tqdm(lora_paths, desc="Processing LoRAs"):
+            lora_name = os.path.basename(lora_path)
+            # Sanitize adapter name for PEFT/Torch (replace dots with underscores)
+            sanitized_adapter_name = lora_name.replace(".", "_")
             
-        # Unload adapter to free memory if needed, or just leave it for set_adapter to switch
-        # model.delete_adapter(lora_name) 
+            # Load LoRA adapter
+            # Note: Unsloth models are PEFT models. 
+            # We use standard PEFT load_adapter. 
+            try:
+                model.load_adapter(lora_path, adapter_name=sanitized_adapter_name)
+                model.set_adapter(sanitized_adapter_name)
+            except Exception as e:
+                print(f"Error loading adapter {lora_name}: {e}")
+                continue
+
+            for idx, q in enumerate(questions):
+                question_text = q["question"]
+                options = q["options"]
+                
+                # Format Prompt
+                # Using chat template as it's Llama 3.1
+                messages = [{"role": "user", "content": question_text}]
+                
+                # add_generation_prompt=True ensures we get the header for the assistant
+                prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+                
+                # Calculate probabilities
+                raw_probs = get_token_probabilities(model, tokenizer, prompt, options)
+                
+                # Normalize
+                total_prob = sum(raw_probs.values())
+                if total_prob > 0:
+                    normalized_probs = {k: v / total_prob for k, v in raw_probs.items()}
+                else:
+                    normalized_probs = {k: 0.0 for k in raw_probs} # Should not happen typically
+
+                all_results[idx]["distributions"][lora_name] = normalized_probs
+                
+            # Unload adapter to free memory if needed, or just leave it for set_adapter to switch
+            # model.delete_adapter(lora_name) 
 
     # Save results
     if not os.path.exists(os.path.dirname(args.output_file)) and os.path.dirname(args.output_file) != "":
